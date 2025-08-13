@@ -1,0 +1,619 @@
+[
+  {
+    "ObjectId": "PCSet01",
+    "DisplayName": "一般業務用PC01",
+    "Description": "一般業務用に使われているPC。起動には8桁のパスワードが必要である。電源はついたまま。",
+    "Choices": [
+      {
+        "Label": "不正操作・内部不正のリスク",
+        "RiskId": "insiderThreat",
+        "OverrideActions": [
+          {
+            "id": "Shutdown",
+            "label": "シャットダウン",
+            "riskChange": -1,
+            "ActionPointCost": 1,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "シャットダウンは端末の電源を切ることで不正操作や内部不正のリスクを一定程度軽減できる基本的な対応策ですが、手動での操作に依存し忘れやすいため、最適な対応策とは言えません。"
+          },
+          {
+            "id": "AutoLock",
+            "label": "自動ロックを設定",
+            "riskChange": -6,
+            "ActionPointCost": 1,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "自動ロックは、一定時間操作がない場合に端末を自動でロックすることで、不正操作や内部不正のリスクを確実に軽減できる効果的な対応策です。設定さえ行えば常に機能するため、手動操作に依存せず、シャットダウンと比較して現実的かつ継続的に端末を保護できる点で、より適切な対応策といえます。"
+          }
+        ]
+      },
+      {
+        "Label": "全端末乗っ取りのリスク",
+        "RiskId": "SharedLocalAdmin",
+        "OverrideActions": [
+          {
+            "id": "AutoChangePassword",
+            "label": "パスワードの自動変更設定",
+            "riskChange": 0,
+            "ActionPointCost": 3,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "環境資料より、このPCではすでに管理者パスワードは自動で個別に設定・定期的に変更されています。したがって、あらためて「パスワードの自動変更設定」を行っても実質的なリスクの低減にはつながりません。"
+          },
+          {
+            "id": "StorePasswordInUSB",
+            "label": "共通パスワードをUSBに暗号化して保管する",
+            "riskChange": 0,
+            "ActionPointCost": 2,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "環境資料より、このPCでは共通パスワードを使用していないため、「共通パスワードをUSBに暗号化して保管する」という対応は状況に合っておらず、リスクの低減にはなりません。"
+          }
+        ]
+      },
+      {
+        "Label": "盗難時の情報漏えいリスク",
+        "RiskId": "NoFullDiskEncryption",
+        "OverrideActions": [
+          {
+            "id": "EnableDiskEncryption",
+            "label": "ディスクを暗号化する",
+            "riskChange": 0,
+            "ActionPointCost": 4,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "環境資料より、このPCのディスク（SSD/HDD）はすでに暗号化されているため、あらためて「ディスクを暗号化する」操作を行ってもリスクの低減にはつながりません。"
+          },
+          {
+            "id": "CopyDataToPortableUSB",
+            "label": "データをUSBにコピーして持ち歩く",
+            "riskChange": 5,
+            "ActionPointCost": 1,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "データをUSBにコピーして持ち歩く行為は、盗難や紛失時に情報漏えいのリスクを高めるため、適切な対応とは言えません。"
+          }
+        ]
+      },
+      {
+        "Label": "既知の脆弱性からの侵入リスク",
+        "RiskId": "OutofDate Patch",
+        "OverrideActions": [
+          {
+            "id": "AutoUpdate",
+            "label": "自動アップデートを設定",
+            "riskChange": 0,
+            "ActionPointCost": 2,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "環境資料より、このPCではOSの更新が毎週自動で実行されているため、「自動アップデートを設定」してもリスクの低減にはつながりません。"
+          },
+          {
+            "id": "UseAntivirusSoftware",
+            "label": "セキュリティソフトを導入",
+            "riskChange": -2,
+            "ActionPointCost": 1,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "セキュリティソフトの導入により、OSやソフトウェアの脆弱性を悪用するマルウェアの検出・防御が可能となるため、既知の脆弱性を突いた侵入リスクを効果的に軽減できます。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ObjectId": "Memo",
+    "DisplayName": "文字の書かれた付箋",
+    "Description": "付箋。「c92Y3ki7t」と8桁の英数字が書かれている。",
+    "Choices": [
+      {
+        "Label": "なりすまし・不正操作のリスク",
+        "RiskId": "PasswordLeak",
+        "OverrideActions": [
+          {
+            "id": "ShredderUse",
+            "label": "シュレッダーを使う",
+            "riskChange": -8,
+            "ActionPointCost": 1,
+            "target": "Held",
+            "ObjectAttributes": [
+              "Shredderable"
+            ],
+            "Explanation": "付箋に書かれたパスワードのような機密情報は、完全に破棄することで情報漏えいリスクを大きく軽減できます。シュレッダーを使えば読み取り不可能な状態で処理できるため、極めて効果的な対策です。"
+          },
+          {
+            "id": "TrashBin",
+            "label": "ゴミ箱を使う",
+            "riskChange": -1,
+            "ActionPointCost": 1,
+            "target": "Held",
+            "ObjectAttributes": [
+              "Trashable"
+            ],
+            "Explanation": "ゴミ箱に捨てるだけでは、パスワードが記載された付箋が回収・再利用される可能性があるため、情報漏えいリスクの軽減効果は限定的です。"
+          }
+        ]
+      },
+      {
+        "Label": "重要書類の漏出のリスク",
+        "RiskId": "PersonalInfoLeak",
+        "OverrideActions": [
+          {
+            "id": "DigitizeDocument",
+            "label": "デジタル化する",
+            "riskChange": 0,
+            "ActionPointCost": 2,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "この付箋はパスワードのみが記載された紙であり、デジタル化すること自体がリスクへの対処にはなりません。保存形式を変えても根本的なリスクは残ります。"
+          },
+          {
+            "id": "StoreCabinet",
+            "label": "保管する",
+            "riskChange": 0,
+            "ActionPointCost": 2,
+            "target": "Held",
+            "ObjectAttributes": [
+              "Storable"
+            ],
+            "Explanation": "パスワードのような機密情報が書かれたメモを保管しておく行為は、リスクを温存するだけであり、情報漏えいの可能性を下げることにはつながりません。"
+          }
+        ]
+      },
+      {
+        "Label": "誤廃棄・情報混入のリスク",
+        "RiskId": "BackSideLeak",
+        "OverrideActions": [
+          {
+            "id": "StoreCabinet",
+            "label": "保管する",
+            "riskChange": 0,
+            "ActionPointCost": 2,
+            "target": "Held",
+            "ObjectAttributes": [
+              "Storable"
+            ],
+            "Explanation": "パスワードのような機密情報が書かれたメモを保管しておく行為は、リスクを温存するだけであり、情報漏えいの可能性を下げることにはつながりません。"
+          },
+          {
+            "id": "ShredderUse",
+            "label": "シュレッダーを使う",
+            "riskChange": 0,
+            "ActionPointCost": 2,
+            "target": "Held",
+            "ObjectAttributes": [
+              "Shredderable"
+            ],
+            "Explanation": "付箋に書かれたパスワードのような機密情報は、完全に破棄することで情報漏えいリスクを大きく軽減できます。シュレッダーを使えば読み取り不可能な状態で処理できるため、極めて効果的な対策です。"
+          }
+        ]
+      },
+      {
+        "Label": "特にリスクはない",
+        "RiskId": "NoRisk",
+        "OverrideActions": [],
+        "Explanation": "この付箋には8桁の英数字が書かれており、パスワードの可能性があります。放置すればなりすましや不正利用につながるリスクがあるため、『特にリスクはない』という判断は不適切です。"
+      }
+    ]
+  },
+  {
+    "ObjectId": "BookCaseSet02",
+    "DisplayName": "文書庫２",
+    "Description": "背表紙の色などで分類され、赤色の本は持ち出し禁止とされている。地震対策でL字金具で固定されている。",
+    "Choices": [
+      {
+        "Label": "地震による本棚の転倒時の文書散乱・紛失のリスク",
+        "RiskId": "ShelfCollapseRisk",
+        "OverrideActions": [
+          {
+            "id": "SortBooks",
+            "label": "重い本を下段に移動",
+            "riskChange": 0,
+            "ActionPointCost": 3,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "文書庫はすでにL字金具で固定されており、重い本を下段に移動する追加の対策は実施済みまたは効果が限定的であり、リスク低減にはつながりません。"
+          },
+          {
+            "id": "UseAntiSlipPads",
+            "label": "耐震ジェルマットを棚の下に敷く",
+            "riskChange": 0,
+            "ActionPointCost": 3,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "すでに地震対策としてL字金具による固定が施されているため、追加でジェルマットを敷いても実質的なリスク低減効果は見込めません。"
+          }
+        ]
+      },
+      {
+        "Label": "内部不正のリスク",
+        "RiskId": "insiderThreat",
+        "OverrideActions": [
+          {
+            "id": "PlaceCamera",
+            "label": "監視カメラの設置",
+            "riskChange": 0,
+            "ActionPointCost": 4,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "この部屋内にはすでに文書庫を映すカメラが設置されているため、効果は限定的。"
+          },
+          {
+            "id": "RequireSign",
+            "label": "貸出帳簿への署名を義務付ける",
+            "riskChange": -1,
+            "ActionPointCost": 3,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "貸出記録を残すことは一定の抑止効果がありますが、記入漏れや形骸化のリスクがあり、監視手段がない状況では効果が限定的です。"
+          }
+        ]
+      },
+      {
+        "Label": "鍵のかけ忘れリスク",
+        "RiskId": "ForgetLock",
+        "OverrideActions": [
+          {
+            "id": "AutoLock",
+            "label": "オートロックの導入",
+            "riskChange": -4,
+            "ActionPointCost": 3,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "オートロックを導入することで権限のない者の侵入を防げます。入退室の記録が自動で残るため抑止効果も高く、紛失時もカードを無効化すれば対応可能です。"
+          },
+          {
+            "id": "PhysicalKey",
+            "label": "物理鍵の導入",
+            "riskChange": -2,
+            "ActionPointCost": 2,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "物理鍵での管理はシンプルで導入コストが低いですが、鍵の紛失や複製のリスクがあり、入退室記録が残らないため抑止効果は限定的です。"
+          }
+        ]
+      },
+      {
+        "Label": "特にリスクはない",
+        "RiskId": "NoRisk",
+        "OverrideActions": [],
+        "Explanation": "文書庫は在室時に施錠されず開放されており、内部不正や施錠忘れによる情報漏えいのリスクが存在します。したがって『特にリスクはない』という判断は不適切です。"
+      }
+    ]
+  },
+  {
+    "ObjectId": "BookCaseSet01",
+    "DisplayName": "文書庫1",
+    "Description": "鍵による施錠管理が可能であるが、在室時は開放されている。背表紙の色などで分類され、取り扱い方法が決まっているとのこと。地震対策でL字金具で固定されている。",
+    "Choices": []
+  },
+  {
+    "ObjectId": "PCServerManage",
+    "DisplayName": "サーバー管理用PC",
+    "Description": "サーバーを管理するPC。自動ロックが設定されており、セキュリティソフトは常に最新状態に保たれている。電源はついたまま。",
+    "Choices": [
+      {
+        "Label": "不正操作・内部不正のリスク",
+        "RiskId": "insiderThreat",
+        "OverrideActions": [
+          {
+            "id": "Shutdown",
+            "label": "シャットダウン",
+            "riskChange": -1,
+            "ActionPointCost": 1,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "電源を切ることで一時的に不正操作のリスクは下がりますが、サーバー管理用PCとしては運用上の実用性が低く、根本的な対策とは言えません。"
+          },
+          {
+            "id": "AutoLock",
+            "label": "自動ロックを設定",
+            "riskChange": 0,
+            "ActionPointCost": 1,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "このPCではすでに自動ロックが設定されているため、改めて設定してもリスクの軽減にはつながりません。"
+          }
+        ]
+      },
+      {
+        "Label": "全端末乗っ取りのリスク",
+        "RiskId": "SharedLocalAdmin",
+        "OverrideActions": [
+          {
+            "id": "AutoChangePassword",
+            "label": "パスワードの自動変更設定",
+            "riskChange": 0,
+            "ActionPointCost": 3,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "管理用PCではすでにパスワードが定期的に自動変更されているため、この操作は意味を持ちません。"
+          },
+          {
+            "id": "StorePasswordInUSB",
+            "label": "共通パスワードをUSBに暗号化して保管する",
+            "riskChange": 0,
+            "ActionPointCost": 2,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "共通パスワードではなく自動で個別に管理されているため、この対応は不要です。"
+          }
+        ]
+      },
+      {
+        "Label": "盗難時の情報漏えいリスク",
+        "RiskId": "NoFullDiskEncryption",
+        "OverrideActions": [
+          {
+            "id": "EnableDiskEncryption",
+            "label": "ディスクを暗号化する",
+            "riskChange": 0,
+            "ActionPointCost": 4,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "このPCはすでにディスク暗号化が適用されているため、再度の設定は不要であり、リスクの軽減にもつながりません。"
+          },
+          {
+            "id": "CopyDataToPortableUSB",
+            "label": "データをUSBにコピーして持ち歩く",
+            "riskChange": 5,
+            "ActionPointCost": 1,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "機密性の高いサーバー管理データをUSBにコピーして持ち歩く行為は、紛失や盗難による情報漏えいリスクを大幅に高める危険な対応です。"
+          }
+        ]
+      },
+      {
+        "Label": "既知の脆弱性からの侵入リスク",
+        "RiskId": "OutofDate Patch",
+        "OverrideActions": [
+          {
+            "id": "AutoUpdate",
+            "label": "自動アップデートを設定",
+            "riskChange": 0,
+            "ActionPointCost": 2,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "このPCではすでにOSの自動アップデートが設定されており、あらためて設定してもリスクの軽減にはつながりません。"
+          },
+          {
+            "id": "UseAntivirusSoftware",
+            "label": "セキュリティソフトを導入",
+            "riskChange": 0,
+            "ActionPointCost": 1,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "セキュリティソフトはすでに導入されており、常に最新の状態に保たれているため、追加で導入しても効果はありません。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ObjectId": "DoorOutside",
+    "DisplayName": "出入口",
+    "Description": "鋼鉄製のドア。室内に入る唯一の出入り口になっており、物理鍵による施錠が可能だが、勤務時間中は解錠運用されている。鍵は社員全員に与えられ、退職時に回収されている。",
+    "Choices": [
+      {
+        "Label": "こじ開け・打ち破りのリスク",
+        "RiskId": "ForcedEntryRisk",
+        "OverrideActions": [
+          {
+            "id": "SetArart",
+            "label": "警報機を設置する",
+            "riskChange": -2,
+            "ActionPointCost": 3,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "すでに十分頑丈な鋼鉄製であり、こじ開け・打ち破りといった物理的突破に対する追加対策という観点では効果は限定的である。一方で、侵入の検知・早期発見・抑止などの観点では一定の効果が見込める"
+          },
+          {
+            "id": "PlaceCamera",
+            "label": "監視カメラの設置",
+            "riskChange": -1,
+            "ActionPointCost": 4,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "打ち破り行為そのものを止める直接的な効果はないが、定期的にカメラ映像を確認することで侵入の早期発見が見込める"
+          }
+        ]
+      },
+      {
+        "Label": "施錠忘れによる侵入リスク",
+        "RiskId": "EntryRisk",
+        "OverrideActions": [
+          {
+            "id": "AutoLock",
+            "label": "自動ロックの導入",
+            "riskChange": -4,
+            "ActionPointCost": 3,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "自動ロックを導入することで、施錠忘れを防ぐことができ、ICカードにすることで物理鍵よりも複製が難しくなる。"
+          },
+          {
+            "id": "PlaceCamera",
+            "label": "監視カメラの設置",
+            "riskChange": -1,
+            "ActionPointCost": 4,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "侵入自体を止める直接的な効果はないが、定期的にカメラ映像を確認することで侵入の早期発見が見込める"
+          }
+        ]
+      },
+      {
+        "Label": "社員の鍵悪用による内部不正のリスク",
+        "RiskId": "InsiderKeyMisuse",
+        "OverrideActions": [
+          {
+            "id": "ChangeKeyConstant",
+            "label": "定期的に鍵を変える",
+            "riskChange": 0,
+            "ActionPointCost": 4,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "鍵は社員全員に渡されるため、効果は薄い"
+          },
+          {
+            "id": "PlaceCamera",
+            "label": "監視カメラの設置",
+            "riskChange": -1,
+            "ActionPointCost": 4,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "不正自体を止める直接的な効果はないが、定期的にカメラ映像を確認することで不正の早期発見が見込める"
+          }
+        ]
+      },
+      {
+        "Label": "特にリスクはない",
+        "RiskId": "NoRisk",
+        "OverrideActions": []
+      }
+    ]
+  },
+  {
+    "ObjectId": "CardReader",
+    "DisplayName": "カードリーダー",
+    "Description": "ICカードリーダ。すべての社員にICカードが配られており、入室可能。",
+    "Choices": [
+      {
+        "Label": "内部不正のリスク",
+        "RiskId": "insiderThreat",
+        "OverrideActions": [
+          {
+            "id": "LimitCard",
+            "label": "特定の社員のみが入室できるようにする",
+            "riskChange": -2,
+            "ActionPointCost": 3,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "不必要な社員が立ち入れなくなるため、内部不正そのものを減らすことができる。しかし、権限を持つ社員自身の不正は防げないため注意が必要。"
+          },
+          {
+            "id": "GetLog",
+            "label": "ログの取得",
+            "riskChange": -1,
+            "ActionPointCost": 2,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "不正の早期発見が可能になる。しかし、依然としてすべての社員全員が入室できてしまうため不正自体を減らす・防ぐことは困難。加えて、ログを定期的に確認しなければ効果がないことに注意が必要。"
+          }
+        ]
+      },
+      {
+        "Label": "カードの紛失による不正入室",
+        "RiskId": "CardLoss",
+        "OverrideActions": [
+          {
+            "id": "MultiAuthentication",
+            "label": "多要素認証の導入",
+            "riskChange": -4,
+            "ActionPointCost": 4,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "多要素認証の導入により、ICカードのみでは入室することが困難になり、効果的な抑制が可能。"
+          },
+          {
+            "id": "DeleteAuthority",
+            "label": "紛失時に権限を削除する",
+            "riskChange": -3,
+            "ActionPointCost": 2,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "紛失したカードを即時無効化することで悪用のリスクを限りなく減らすことができる。ただし、報告が遅れた場合や不正が即時行われた場合は防げないことに注意が必要。"
+          }
+        ]
+      },
+      {
+        "Label": "カードの複製による悪用",
+        "RiskId": "CopyKey",
+        "OverrideActions": [
+          {
+            "id": "MultiAuthentication",
+            "label": "多要素認証の導入",
+            "riskChange": -4,
+            "ActionPointCost": 4,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "カードのみでは入室できなくなり、効果的な抑制が可能"
+          }
+        ]
+      },
+      {
+        "Label": "特にリスクはない",
+        "RiskId": "NoRisk",
+        "OverrideActions": []
+      }
+    ]
+  },
+  {
+    "ObjectId": "PCSet02",
+    "DisplayName": "一般業務用PC02",
+    "Description": "一般業務用に使われているPC。起動には8桁のパスワードが必要である。電源はオフになっている。",
+    "Choices": []
+  },
+  {
+    "ObjectId": "DoorInside",
+    "DisplayName": "サーバールームへの扉",
+    "Description": "ICカードを用いた自動ロックによる入室制御がされている。",
+    "Choices": []
+  },
+  {
+    "ObjectId": "Server",
+    "DisplayName": "業務サーバ",
+    "Description": "固定されたラックに設置された業務サーバ。ラックの扉は常に施錠されている。バックアップデータは定期的にクラウド上に保存されている。",
+    "Choices": []
+  },
+  {
+    "ObjectId": "LockCabine",
+    "DisplayName": "保管庫",
+    "Description": "各段を鍵による施錠が可能。主に重要な資産を保管するのに使われているとのこと。",
+    "Choices": []
+  },
+  {
+    "ObjectId": "Sofa01",
+    "DisplayName": "ソファ",
+    "Description": "ふかふかのソファー。座るとなんか気持ちいいらしい。",
+    "Choices": []
+  },
+  {
+    "ObjectId": "Sofa02",
+    "DisplayName": "ソファ",
+    "Description": "ふかふかのソファー。座ると地味に気持ちいいらしい。",
+    "Choices": []
+  },
+  {
+    "ObjectId": "MeetingSpace",
+    "DisplayName": "会議スペース",
+    "Description": "会議を行ったり、休憩に使ったりされているスペース。食事をとったりしている職員もいるとか。",
+    "Choices": []
+  },
+  {
+    "ObjectId": "MonitaringCamera",
+    "DisplayName": "監視カメラ",
+    "Description": "監視カメラ。入り口・文書庫が映るように設置されている。過去ひと月分の映像がクラウド上に保存されており、定期的に映像は確認されている。",
+    "Choices": []
+  },
+  {
+    "ObjectId": "ImportantBook",
+    "DisplayName": "重要な書類",
+    "Description": "機密事項が書かれた書類。表紙に持ち出し厳禁と大きく書かれている。",
+    "Choices": []
+  },
+  {
+    "ObjectId": "Shredder",
+    "DisplayName": "シュレッダー",
+    "Description": "紙を廃棄するときに使う",
+    "Choices": []
+  },
+  {
+    "ObjectId": "TrashBin",
+    "DisplayName": "ゴミ箱",
+    "Description": "紙を廃棄するときに使う",
+    "Choices": []
+  }
+]

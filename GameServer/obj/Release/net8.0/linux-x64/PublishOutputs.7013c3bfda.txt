@@ -1,0 +1,10 @@
+C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\linux-x64\PubTmp\Out\appsettings.Development.json
+C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\linux-x64\PubTmp\Out\appsettings.json
+C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\linux-x64\PubTmp\Out\Master\ActionableComponents.json
+C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\linux-x64\PubTmp\Out\Master\ActionHeldComponents.json
+C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\linux-x64\PubTmp\Out\Master\CarryableObjects.json
+C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\linux-x64\PubTmp\Out\Master\InspectableComponents.json
+C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\linux-x64\PubTmp\Out\Master\Objects.json
+C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\linux-x64\PubTmp\Out\Master\StageObjects.json
+C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\linux-x64\PubTmp\Out\GameServer.pdb
+C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\linux-x64\PubTmp\Out\GameServer

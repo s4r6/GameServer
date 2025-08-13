@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "vHzcR29jJi8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\GameServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kouta\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.15\\microsoft.net.illink.tasks.8.0.15.nupkg.sha512",
+    "C:\\Users\\kouta\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\kouta\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.15\\microsoft.netcore.app.runtime.linux-x64.8.0.15.nupkg.sha512",
+    "C:\\Users\\kouta\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.15\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.15.nupkg.sha512",
+    "C:\\Users\\kouta\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.15\\microsoft.netcore.app.host.linux-x64.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

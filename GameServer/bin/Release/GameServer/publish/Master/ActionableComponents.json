@@ -1,0 +1,6 @@
+[
+  {
+    "ObjectId": "Shredder",
+    "Actions":[ "Shredderable" ]    
+  }
+]

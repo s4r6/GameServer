@@ -1,0 +1,7 @@
+{"elapsedTime":"00:00:00.0010484","roomName":"ghfdgh","playerId":"hgdfhgd","message":"Room created: RoomId=ghfdgh, StageId=1","category":"System"}
+{"elapsedTime":"00:00:07.8970337","roomName":"ghfdgh","playerId":"0e8fea23-e3fc-4039-b8c7-dc96abd88fb2","message":"[Inspect]: Risk=不正操作・内部不正のリスク, ObjectId=PCSet01","category":"Inspect"}
+{"elapsedTime":"00:00:09.6341375","roomName":"ghfdgh","playerId":"0e8fea23-e3fc-4039-b8c7-dc96abd88fb2","message":"[Action]: Action=Shutdown, ObjectId=PCSet01","category":"Action"}
+{"elapsedTime":"00:00:11.7451139","roomName":"ghfdgh","playerId":"0e8fea23-e3fc-4039-b8c7-dc96abd88fb2","message":"[Inspect]: Risk=重要書類の漏出のリスク, ObjectId=Memo","category":"Inspect"}
+{"elapsedTime":"00:00:12.4332126","roomName":"ghfdgh","playerId":"0e8fea23-e3fc-4039-b8c7-dc96abd88fb2","message":"[Action]: Action=DigitizeDocument, ObjectId=Memo","category":"Action"}
+{"elapsedTime":"00:00:43.3834591","roomName":"ghfdgh","playerId":"0e8fea23-e3fc-4039-b8c7-dc96abd88fb2","message":"[Inspect]: Risk=地震による本棚の転倒時の文書散乱・紛失のリスク, ObjectId=BookCaseSet01","category":"Inspect"}
+{"elapsedTime":"00:00:44.5924243","roomName":"ghfdgh","playerId":"0e8fea23-e3fc-4039-b8c7-dc96abd88fb2","message":"[Action]: Action=UseAntiSlipPads, ObjectId=BookCaseSet01","category":"Action"}

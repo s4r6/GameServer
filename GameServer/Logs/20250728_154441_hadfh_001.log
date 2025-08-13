@@ -1,0 +1,3 @@
+{"elapsedTime":"00:00:00.0013747","roomName":"hadfh","playerId":"hgshfgd","message":"Room created: RoomId=hadfh, StageId=1","category":"System"}
+{"elapsedTime":"00:00:05.7721725","roomName":"hadfh","playerId":"be640190-f8f3-4911-9542-7e5b0ee85468","message":"[Inspect]: Risk=不正操作・内部不正のリスク, ObjectId=PCSet01","category":"Inspect"}
+{"elapsedTime":"00:00:06.6990268","roomName":"hadfh","playerId":"be640190-f8f3-4911-9542-7e5b0ee85468","message":"[Action]: Action=Shutdown, ObjectId=PCSet01","category":"Action"}
