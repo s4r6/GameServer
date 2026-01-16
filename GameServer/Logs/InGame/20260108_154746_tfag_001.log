@@ -1,0 +1,9 @@
+{"elapsedTime":"00:00:00","roomName":"tfag","clientId":"a46d3c4c-ac38-4cde-82ff-7e807c2aca47","clientName":"rtes","message":"Room created","category":"System"}
+{"elapsedTime":"00:00:04","roomName":"tfag","clientId":"a46d3c4c-ac38-4cde-82ff-7e807c2aca47","clientName":"rtes","message":"[Inspect]: Risk=不正操作・内部不正のリスク, ObjectId=PCSet01, ElapsedTime=00:00:00.5457206","category":"Inspect"}
+{"elapsedTime":"00:00:04","roomName":"tfag","clientId":"a46d3c4c-ac38-4cde-82ff-7e807c2aca47","clientName":"rtes","message":"[Action]: Action=AutoLock, ObjectId=PCSet01","category":"Action"}
+{"elapsedTime":"00:00:06","roomName":"tfag","clientId":"a46d3c4c-ac38-4cde-82ff-7e807c2aca47","clientName":"rtes","message":"[Inspect]: Risk=パスワードの漏洩リスク, ObjectId=Memo, ElapsedTime=00:00:00.7110325","category":"Inspect"}
+{"elapsedTime":"00:00:09","roomName":"tfag","clientId":"a46d3c4c-ac38-4cde-82ff-7e807c2aca47","clientName":"rtes","message":"[Action]: Action=ShredderUse, ObjectId=Shredder","category":"Action"}
+{"elapsedTime":"00:00:12","roomName":"tfag","clientId":"a46d3c4c-ac38-4cde-82ff-7e807c2aca47","clientName":"rtes","message":"[Inspect]: Risk=盗難のリスク, ObjectId=BookCaseSet02, ElapsedTime=00:00:01.5047943","category":"Inspect"}
+{"elapsedTime":"00:00:13","roomName":"tfag","clientId":"a46d3c4c-ac38-4cde-82ff-7e807c2aca47","clientName":"rtes","message":"[Action]: Action=AutoLock, ObjectId=BookCaseSet02","category":"Action"}
+{"elapsedTime":"00:00:16","roomName":"tfag","clientId":"a46d3c4c-ac38-4cde-82ff-7e807c2aca47","clientName":"rtes","message":"[Inspect]: Risk=カードの紛失による不正入室, ObjectId=CardReader, ElapsedTime=00:00:01.4811891","category":"Inspect"}
+{"elapsedTime":"00:00:17","roomName":"tfag","clientId":"a46d3c4c-ac38-4cde-82ff-7e807c2aca47","clientName":"rtes","message":"[Action]: Action=MultiAuthentication, ObjectId=CardReader","category":"Action"}

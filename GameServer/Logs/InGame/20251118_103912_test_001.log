@@ -1,0 +1,3 @@
+{"elapsedTime":"00:00:00","roomName":"test","clientId":"c81a5185-98b9-467e-abcc-0e6c4fa47ada","clientName":"ets","message":"Room created","category":"System"}
+{"elapsedTime":"00:00:15","roomName":"test","clientId":"c81a5185-98b9-467e-abcc-0e6c4fa47ada","clientName":"ets","message":"[Inspect]: Risk=全端末乗っ取りのリスク, ObjectId=PCSet01, ElapsedTime=00:00:00.5840000","category":"Inspect"}
+{"elapsedTime":"00:00:15","roomName":"test","clientId":"c81a5185-98b9-467e-abcc-0e6c4fa47ada","clientName":"ets","message":"[Action]: Action=AutoChangePassword, ObjectId=PCSet01","category":"Action"}

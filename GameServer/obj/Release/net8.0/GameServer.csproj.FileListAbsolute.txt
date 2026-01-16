@@ -36,3 +36,4 @@ C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Rel
 C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\GameServer.pdb
 C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\GameServer.genruntimeconfig.cache
 C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\ref\GameServer.dll
+C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Release\net8.0\GameServer.sourcelink.json

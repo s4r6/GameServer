@@ -1,0 +1,3 @@
+{"elapsedTime":"00:00:00","roomName":"gfds","clientId":"27ad5cb5-0a98-4f1e-8072-0184f55773a4","clientName":"reg","message":"Room created","category":"System"}
+{"elapsedTime":"00:00:37","roomName":"gfds","clientId":"27ad5cb5-0a98-4f1e-8072-0184f55773a4","clientName":"reg","message":"[Inspect]: Risk=特にリスクはない, ObjectId=DoorOutside, ElapsedTime=00:00:00.6485929","category":"Inspect"}
+{"elapsedTime":"00:01:12","roomName":"gfds","clientId":"27ad5cb5-0a98-4f1e-8072-0184f55773a4","clientName":"reg","message":"[Inspect]: Risk=特にリスクはない, ObjectId=DoorOutside, ElapsedTime=00:00:27.5346256","category":"Inspect"}

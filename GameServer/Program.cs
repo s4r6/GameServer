@@ -11,6 +11,7 @@ using GameServer.Domain;
 using GameServer.Infrastracture.Factory;
 using GameServer.InterfaceAdapter.Registory;
 using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.WebHost.UseUrls("http://localhost:5001");
@@ -20,7 +21,7 @@ builder.Services.Configure<GameLogOptions>(builder.Configuration.GetSection("Gam
 builder.Services.AddSingleton<ILogRepository>(sp =>
 {
     var options = sp.GetRequiredService<IOptions<GameLogOptions>>().Value;
-    return new RoomLogRepository(options.Path);
+    return new LogRepository(options.Path);
 });
 builder.Services.AddSingleton<IEntityFactory, EntityFactory>();
 builder.Services.AddSingleton<IObjectRepository, ObjectRepository>();
@@ -65,14 +66,30 @@ app.Use(async (context, next) =>
         var syncPosPresenter = context.RequestServices.GetRequiredService<SyncPositionPresenter>();
         var votePresenter = context.RequestServices.GetRequiredService<VotePresenter>();
 
+        var logger = context.RequestServices.GetRequiredService<LoggerUseCase>();
         try
         {
-            await ReceiveLoopAsync(webSocket, connectionId, roomPresenter, inspectPresenter, actionPresenter, syncPosPresenter, votePresenter);
+            var log = new ConnectionLog(
+                            DateTime.Now,
+                            connectionId,
+                            $"[Connect]{connectionId} was Connect To Server. ",
+                            LogCategory.System);
+            await logger.SavaAsync_ConnectionLog(log, connectionId);
+
+            await ReceiveLoopAsync(webSocket, connectionId, roomPresenter, inspectPresenter, actionPresenter, syncPosPresenter, votePresenter, logger);
         }
         finally
         {
             await roomPresenter.HandlePlayerDisconnected(connectionId);
             registry.Unregister(connectionId);
+
+            //通信ログ出力
+            var log = new ConnectionLog(
+                            DateTime.Now,
+                            connectionId,
+                            $"[TimeOut] Id = {connectionId} was TimeOut",
+                            LogCategory.System);
+            await logger.SavaAsync_ConnectionLog(log, connectionId);
         }
     }
     else
@@ -83,12 +100,12 @@ app.Use(async (context, next) =>
 
 app.Run();
 
-async Task ReceiveLoopAsync(WebSocket socket, string connectionId, RoomPresenter roomPresenter, InspectPresenter inspectPresenter, ActionPresenter actionPresenter, SyncPositionPresenter syncPosPresenter, VotePresenter votePresenter)
+async Task ReceiveLoopAsync(WebSocket socket, string connectionId, RoomPresenter roomPresenter, InspectPresenter inspectPresenter, ActionPresenter actionPresenter, SyncPositionPresenter syncPosPresenter, VotePresenter votePresenter, LoggerUseCase logger)
 {
     var buffer = new byte[4096];
     while (socket.State == WebSocketState.Open)
     {
-        using var cts = new CancellationTokenSource(TimeSpan.FromSeconds(30));
+        using var cts = new CancellationTokenSource(TimeSpan.FromSeconds(45));
         try
         {
             var result = await socket.ReceiveAsync(new ArraySegment<byte>(buffer), cts.Token);
@@ -100,8 +117,18 @@ async Task ReceiveLoopAsync(WebSocket socket, string connectionId, RoomPresenter
 
             var json = Encoding.UTF8.GetString(buffer, 0, result.Count);
             var packetId = PacketSerializer.ExtractPacketId(json);
-            if (packetId != PacketId.PositionUpdate || packetId != PacketId.Ping)
-                Console.WriteLine(json);
+            if (packetId != PacketId.PositionUpdate && packetId != PacketId.Ping)
+            {
+                //通信ログ出力
+                var log = new ConnectionLog(
+                                DateTime.Now,
+                                connectionId,
+                                $"[Receive] packetId = {packetId}, data = {json}",
+                                LogCategory.System);
+                await logger.SavaAsync_ConnectionLog(log, connectionId);
+            }
+
+            
 
             switch (packetId)
             {

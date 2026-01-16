@@ -12,7 +12,8 @@ namespace GameServer.Infrastracture.Factory
             {
                 Label = json["Label"]?.ToString(),
                 RiskId = json["RiskId"]?.ToString(),
-                OverrideActions = ParseOverrideActions(json["OverrideActions"])
+                OverrideActions = ParseOverrideActions(json["OverrideActions"]),
+                Explanation = json["Explanation"]?.ToString() ?? ""
             };
 
             return choice;
