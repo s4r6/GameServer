@@ -29,8 +29,9 @@ namespace GameServer.Application.DTO
     public class JoinRoomInputData
     {
         public string RoomId { get; init; }
-        public string PlayerName { get; init; }
         public string PlayerId { get; init; }
+        public string PlayerName { get; init; }
+        
     }
 
     public class JoinRoomOutputData
@@ -84,7 +85,7 @@ namespace GameServer.Application.DTO
         public ObjectEntity entity { get; init; }
         public int currentRiskAmount {  get; init; }
         public int currentActionPointAmount {  get; init; }
-        public List<RiskAssessmentHistory> histories { get; init; }
+        public List<SurmmaryDetailDTO> histories { get; init; }
     }
 
     public class PlayerSession

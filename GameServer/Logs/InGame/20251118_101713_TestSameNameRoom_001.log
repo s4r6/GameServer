@@ -1,0 +1,5 @@
+{"elapsedTime":"00:00:00","roomName":"TestSameNameRoom","clientName":"TestSameNameClient","message":"Room created","category":"System"}
+{"elapsedTime":"00:00:04","roomName":"TestSameNameRoom","clientName":"TestSameNameClient","message":"[Inspect]: Risk=不正操作・内部不正のリスク, ObjectId=PCSet01, ElapsedTime=00:00:00.5010000","category":"Inspect"}
+{"elapsedTime":"00:00:05","roomName":"TestSameNameRoom","clientName":"TestSameNameClient","message":"[Action]: Action=Shutdown, ObjectId=PCSet01","category":"Action"}
+{"elapsedTime":"00:00:08","roomName":"TestSameNameRoom","clientName":"TestSameNameClient","message":"[Inspect]: Risk=なりすまし・不正操作のリスク, ObjectId=Memo, ElapsedTime=00:00:01.1000000","category":"Inspect"}
+{"elapsedTime":"00:00:12","roomName":"TestSameNameRoom","clientName":"TestSameNameClient","message":"[Action]: Action=ShredderUse, ObjectId=Shredder","category":"Action"}

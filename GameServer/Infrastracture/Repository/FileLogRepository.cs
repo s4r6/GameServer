@@ -2,7 +2,6 @@
 using GameServer.Domain;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using static GameServer.Domain.LogEntity;
 
 namespace GameServer.Infrastracture.Repository
 {
@@ -11,10 +10,10 @@ namespace GameServer.Infrastracture.Repository
         private readonly string _filePath;
         private readonly JsonSerializerSettings _settings;
 
-        public FileLogRepository(string logDirectory, string roomName, string timestamp)
+        public FileLogRepository(string logDirectory, string Name, string timestamp)
         {
             Directory.CreateDirectory(logDirectory);
-            _filePath = GenerateUniqueLogFilePath(logDirectory, roomName, timestamp);
+            _filePath = GenerateUniqueLogFilePath(logDirectory, Name, timestamp);
 
             // 例: キャメルケース & Enum 文字列化など
             _settings = new JsonSerializerSettings
@@ -23,13 +22,14 @@ namespace GameServer.Infrastracture.Repository
                 Converters = { new Newtonsoft.Json.Converters.StringEnumConverter() }
             };
         }
-        string GenerateUniqueLogFilePath(string logDirectory, string roomName, string timestamp)
+
+        string GenerateUniqueLogFilePath(string logDirectory, string Name, string timestamp)
         {
             int counter = 1;
             string filePath;
             do
             {
-                string fileName = $"{timestamp}_{roomName}_{counter:D3}.log";
+                string fileName = $"{timestamp}_{Name}_{counter:D3}.log";
                 filePath = Path.Combine(logDirectory, fileName);
                 counter++;
             } while (File.Exists(filePath));
@@ -38,9 +38,9 @@ namespace GameServer.Infrastracture.Repository
             return filePath;
         }
 
-        public async Task SaveAsync(LogEntry entry)
+        public async Task SaveAsync(ILog log)
         {
-            string json = JsonConvert.SerializeObject(entry, _settings);
+            string json = JsonConvert.SerializeObject(log, _settings);
             await File.AppendAllTextAsync(_filePath, json + '\n'); // JSON Lines 形式で追記
         }
     }

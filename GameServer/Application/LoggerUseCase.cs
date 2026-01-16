@@ -1,5 +1,5 @@
 ﻿using GameServer.Application.Interface;
-using static GameServer.Domain.LogEntity;
+using GameServer.Domain;
 
 namespace GameServer.Application
 {
@@ -14,21 +14,27 @@ namespace GameServer.Application
             _registry = registry;
         }
 
-        public async Task SaveAsync(LogEntry entry, string roomId)
+        public async Task SaveAsync_InGameLog(InGameLog log, string roomId)
         {
             var clock = _registry.Get(roomId)?.Clock;
             if (clock == null) return;
 
             // Clock から経過時間を取得して新しいエントリを作成
-            var stamped = new LogEntry(
+            var stamped = new InGameLog(
                 clock.ElapsedSinceGameStart(),
-                entry.RoomName,
-                entry.PlayerId,
-                entry.Message,
-                entry.Category
+                log.RoomName,
+                log.ClientId,
+                log.ClientName,
+                log.Message,
+                log.Category
             );
 
-            await _repository.SaveAsync(stamped, entry.RoomName);
+            await _repository.SaveAsync(stamped, roomId, log.RoomName, "InGame");
+        }
+
+        public async Task SavaAsync_ConnectionLog(ConnectionLog log, string clientId)
+        {
+            await _repository.SaveAsync(log, clientId, log.ClientId, "Connection");
         }
     }
 }
