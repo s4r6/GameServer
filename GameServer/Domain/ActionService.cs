@@ -88,20 +88,7 @@ namespace GameServer.Domain
             SetActionFlag(entity);
 
             var selectedRiskLabel = choicable.SelectedChoice.Label;
-            var description = entity.GetComponent<InspectableComponent>().Description;
-            var riskLabels = choicable.Choices.Select(x => x.Label).ToList();
-
-            var history = new ActionHistory(
-                                entity.Id, 
-                                description,
-                                selectedRiskLabel, 
-                                selectedActionLabel, 
-                                action.riskChange, 
-                                action.actionPointCost,
-                                riskLabels,
-                                choicable.SelectedChoice.OverrideActions,
-                                action.Explanation
-                                );
+            var history = new ActionHistory(entity.Id, selectedRiskLabel, selectedActionLabel, action.riskChange, action.actionPointCost, action.Explanation);
             //アクションをStageに適用して履歴を保存
             stage.OnExecuteAction(history);
 

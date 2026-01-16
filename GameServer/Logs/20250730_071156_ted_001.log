@@ -1,0 +1,3 @@
+{"elapsedTime":"00:00:00.0000243","roomName":"ted","playerId":"teas","message":"Room created: RoomId=ted, StageId=1","category":"System"}
+{"elapsedTime":"00:01:45.9856344","roomName":"ted","playerId":"6c21275d-def8-4748-a1c9-d051b1fc7c6e","message":"[Inspect]: Risk=不正操作・内部不正のリスク, ObjectId=PCSet01, ElapsedTime=00:01:36.8340841","category":"Inspect"}
+{"elapsedTime":"00:02:15.8361769","roomName":"ted","playerId":"6c21275d-def8-4748-a1c9-d051b1fc7c6e","message":"[Inspect]: Risk=なりすまし・不正操作のリスク, ObjectId=Memo, ElapsedTime=00:00:00.4857286","category":"Inspect"}

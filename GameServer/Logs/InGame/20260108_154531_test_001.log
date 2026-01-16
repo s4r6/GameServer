@@ -1,5 +1,0 @@
-{"elapsedTime":"00:00:00","roomName":"test","clientId":"17ba350f-a88c-4f8e-abdb-752b9da2b9ab","clientName":"test","message":"Room created","category":"System"}
-{"elapsedTime":"00:00:04","roomName":"test","clientId":"17ba350f-a88c-4f8e-abdb-752b9da2b9ab","clientName":"test","message":"[Inspect]: Risk=不正操作・内部不正のリスク, ObjectId=PCSet01, ElapsedTime=00:00:00.5643557","category":"Inspect"}
-{"elapsedTime":"00:00:05","roomName":"test","clientId":"17ba350f-a88c-4f8e-abdb-752b9da2b9ab","clientName":"test","message":"[Action]: Action=AutoLock, ObjectId=PCSet01","category":"Action"}
-{"elapsedTime":"00:00:08","roomName":"test","clientId":"17ba350f-a88c-4f8e-abdb-752b9da2b9ab","clientName":"test","message":"[Inspect]: Risk=盗難のリスク, ObjectId=BookCaseSet02, ElapsedTime=00:00:00.8407336","category":"Inspect"}
-{"elapsedTime":"00:00:09","roomName":"test","clientId":"17ba350f-a88c-4f8e-abdb-752b9da2b9ab","clientName":"test","message":"[Action]: Action=AutoLock, ObjectId=BookCaseSet02","category":"Action"}

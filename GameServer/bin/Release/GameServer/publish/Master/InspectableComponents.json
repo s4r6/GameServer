@@ -1,0 +1,132 @@
+[
+  {
+    "ObjectId": "PCSet01",
+    "Description": "ログイン状態のPCが無人で放置されている",
+    "Choices": [
+      {
+        "Label": "ログアウトしていない",
+        "RiskId": "LogoutRisk",
+        "OverrideActions": [
+          {
+            "id": "Logout",
+            "riskChange": -10,
+            "ActionPointCost": 1
+          }
+        ],
+        "ActionAttributes": [
+          { "name": "Logout", "target": "Self" }
+        ]
+      },
+      {
+        "Label": "スクリーンロックされていない",
+        "RiskId": "ScreenUnlock",
+        "OverrideActions": [
+          {
+            "id": "LockPC",
+            "riskChange": -8,
+            "ActionPointCost": 1
+          }
+        ],
+        "ActionAttributes": [
+          { "name": "Lock", "target": "Self" }
+        ]
+      },
+      {
+        "Label": "無線LANが常時ON",
+        "RiskId": "WiFiAlwaysOn",
+        "OverrideActions": [
+          {
+            "id": "DisableWiFi",
+            "riskChange": -5,
+            "ActionPointCost": 1
+          }
+        ],
+        "ActionAttributes": [
+          { "name": "WiFiDisable", "target": "Self" }
+        ]
+      },
+      {
+        "Label": "USBポートが無効化されていない",
+        "RiskId": "USBPortEnabled",
+        "OverrideActions": [
+          {
+            "id": "DisableUSB",
+            "riskChange": -6,
+            "ActionPointCost": 1
+          }
+        ],
+        "ActionAttributes": [
+          { "name": "USBDisable", "target": "Self" }
+        ]
+      }
+    ]
+    },
+    {
+    "ObjectId": "Memo",
+    "Description": "デスクに置かれたメモに何かが書かれている",
+    "Choices": [
+      {
+        "Label": "パスワードが書かれている",
+        "RiskId": "PasswordLeak",
+        "OverrideActions": [
+          {
+            "id": "ShredderUse",
+            "label": "シュレッダーを使う",
+            "riskChange": -10,
+            "ActionPointCost": 1,
+            "target": "Held",
+            "ObjectAttributes" : ["Shredderable"]
+          },
+          {
+            "id": "TrashBin",
+            "riskChange": -5,
+            "ActionPointCost": 1,
+            "target": "Held",
+            "ObjectAttributes" : ["Trashable"]
+          }
+        ],
+        "ActionAttributes": [],
+        "ObjectAttributes": ["Trashable", "Shredderable"]
+      },
+      {
+        "Label": "個人情報が記載されている",
+        "RiskId": "PersonalInfoLeak",
+        "OverrideActions": [
+          {
+            "id": "TrashBin",
+            "riskChange": -6,
+            "ActionPointCost": 1
+          }
+        ],
+        "ActionAttributes": [],
+        "ObjectAttributes": ["Trashable"]
+      },
+      {
+        "Label": "社外秘資料の写しがある",
+        "RiskId": "ConfidentialLeak",
+        "OverrideActions": [
+          {
+            "id": "SecureStore",
+            "riskChange": -8,
+            "ActionPointCost": 2
+          }
+        ],
+        "ActionAttributes": [],
+        "ObjectAttributes": ["Storable"]
+      },
+      {
+        "Label": "メモに上司のパスワードが書かれていた",
+        "RiskId": "BossPasswordLeak",
+        "OverrideActions": [
+          {
+            "id": "ShredderUse",
+            "riskChange": -12,
+            "ActionPointCost": 1
+          }
+        ],
+        "ActionAttributes": [],
+        "ObjectAttributes": ["Shredderable"]
+      }
+    ]
+  }
+]

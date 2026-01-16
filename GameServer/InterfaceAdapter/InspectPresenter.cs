@@ -3,7 +3,7 @@ using GameServer.Application.Interface;
 using GameServer.Infrastracture;
 using GameServer.InterfaceAdapter.Interface;
 using GameServer.Utility;
-using GameServer.Domain;
+using static GameServer.Domain.LogEntity;
 
 namespace GameServer.InterfaceAdapter
 {
@@ -33,15 +33,14 @@ namespace GameServer.InterfaceAdapter
             var result = inspectUseCase.Inspect(roomId, objectId, selectedChoice, playerId);
             if(result.Success)
             {
-                var log = new InGameLog(
+                var log = new LogEntry(
                                 TimeSpan.Zero,
                                 result.RoomName,
-                                connectionId,
                                 result.PlayerName,
                                 $"[Inspect]: Risk={selectedChoice}, ObjectId={objectId}, ElapsedTime={elapsedTime}",
                                 LogCategory.Inspect
                                );
-                await logger.SaveAsync_InGameLog(log, result.RoomId);
+                await logger.SaveAsync(log, result.RoomId);
             }
 
             var entity = result.Entity;

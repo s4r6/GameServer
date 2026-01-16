@@ -1,7 +1,0 @@
-{"elapsedTime":"00:00:00","roomName":"test","clientId":"04e8675a-1821-48c2-8981-d627477b96f6","clientName":"test","message":"Room created","category":"System"}
-{"elapsedTime":"00:00:05","roomName":"test","clientId":"04e8675a-1821-48c2-8981-d627477b96f6","clientName":"test","message":"[Inspect]: Risk=不正操作・内部不正のリスク, ObjectId=PCSet01, ElapsedTime=00:00:01.4273874","category":"Inspect"}
-{"elapsedTime":"00:00:06","roomName":"test","clientId":"04e8675a-1821-48c2-8981-d627477b96f6","clientName":"test","message":"[Action]: Action=AutoLock, ObjectId=PCSet01","category":"Action"}
-{"elapsedTime":"00:00:08","roomName":"test","clientId":"04e8675a-1821-48c2-8981-d627477b96f6","clientName":"test","message":"[Inspect]: Risk=パスワードの漏洩リスク, ObjectId=Memo, ElapsedTime=00:00:00.6314084","category":"Inspect"}
-{"elapsedTime":"00:00:11","roomName":"test","clientId":"04e8675a-1821-48c2-8981-d627477b96f6","clientName":"test","message":"[Action]: Action=ShredderUse, ObjectId=Shredder","category":"Action"}
-{"elapsedTime":"00:00:14","roomName":"test","clientId":"04e8675a-1821-48c2-8981-d627477b96f6","clientName":"test","message":"[Inspect]: Risk=盗難のリスク, ObjectId=BookCaseSet02, ElapsedTime=00:00:00.9903839","category":"Inspect"}
-{"elapsedTime":"00:00:16","roomName":"test","clientId":"04e8675a-1821-48c2-8981-d627477b96f6","clientName":"test","message":"[Action]: Action=AutoLock, ObjectId=BookCaseSet02","category":"Action"}

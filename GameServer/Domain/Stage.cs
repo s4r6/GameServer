@@ -7,37 +7,28 @@ namespace GameServer.Domain
 {
     public struct ActionHistory
     {
-        public string ObjectId { get; }
-        public string Description { get; }
+        public string ObjectName { get; }
         public string SelectedRiskLable { get; }
         public string ExecutedActionLabel { get; }
 
         public int RiskChange { get; } // 実行による変化量
 
         public int ActionCost { get; } // 使用したアクションポイント
-        public List<string> RiskLabels { get; }
-        public List<ActionEntity> Actions { get; }
         public string Explanation { get; }
 
         public ActionHistory(
-            string objectId,
-            string description,
+            string objectName,
             string riskLabel,
             string actionLabel,
             int riskChange,
             int actionCost,
-            List<string> riskLabels,
-            List<ActionEntity> actions,
             string explanation)
         {
-            ObjectId = objectId;
-            Description = description;
+            ObjectName = objectName;
             SelectedRiskLable = riskLabel;
             ExecutedActionLabel = actionLabel;
             RiskChange = riskChange;
             ActionCost = actionCost;
-            RiskLabels = riskLabels;
-            Actions = actions;
             Explanation = explanation;
         }
     }
@@ -48,19 +39,45 @@ namespace GameServer.Domain
         ShortageActionPoint,
         Unknown
     }
-    public struct SurmmaryDetailDTO
+    public struct RiskAssessmentHistory
     {
-        public string DisplayName;  //オブジェクトの表示名
-        public string RiskLabel;    //選択したリスク名
-        public string ActionLabel;  //実行した対応策名
-        public int RiskChange;
-        public int ActionCost;
-        public string Explanation;  //解説
-        public string Description;     //状況説明
+        public string ObjectName { get; set; }
+        public string SelectedRiskLabel { get; set; }
+        public string ExecutedActionLabel { get; set; }
 
-        public List<string> RiskLabels;
-        //DisplayName, <RiskChange, ActionCost>
-        public List<(string label, (int, int))> ActionLabels;
+        public int RiskChange { get; set; } // 実行による変化量
+        public int CurrentRisk { get; set; }
+        public int MaxRisk { get; set; }
+
+        public int ActionCost { get; set; }// 使用したアクションポイント
+        public int CurrentActionPoint { get; set; }
+        public int MaxActionPoint { get; set; }
+
+        public string Explanation { get; set; }
+
+        public RiskAssessmentHistory(
+            string objectName,
+            string riskLabel,
+            string actionLabel,
+            int riskChange,
+            int currentRisk,
+            int maxRisk,
+            int actionCost,
+            int currentAP,
+            int maxAP,
+            string explanation)
+        {
+            ObjectName = objectName;
+            SelectedRiskLabel = riskLabel;
+            ExecutedActionLabel = actionLabel;
+            RiskChange = riskChange;
+            CurrentRisk = currentRisk;
+            MaxRisk = maxRisk;
+            ActionCost = actionCost;
+            CurrentActionPoint = currentAP;
+            MaxActionPoint = maxAP;
+            Explanation = explanation;
+        }
     }
 
     public class StageTemplate
@@ -92,7 +109,7 @@ namespace GameServer.Domain
         public Dictionary<string, ObjectEntity> Entities { get; private set; } = new Dictionary<string, ObjectEntity>();
 
         //----------------------リザルト表示用--------------------------
-        public List<SurmmaryDetailDTO> histories = new();
+        public List<RiskAssessmentHistory> histories = new();
 
         public Stage(string id, int stageId, int maxRiskAmount, int maxActionPoint, Dictionary<string, ObjectEntity> entities)
         {
@@ -148,20 +165,65 @@ namespace GameServer.Domain
             CurrentActionPoint -= history.ActionCost;
             CurrentRiskAmount += history.RiskChange;
 
-            var detailDTO = new SurmmaryDetailDTO()
-            {
-                DisplayName = history.ObjectId,
-                Description = history.Description,
-                RiskLabel = history.SelectedRiskLable,
-                ActionLabel = history.ExecutedActionLabel,
-                RiskChange = history.RiskChange,
-                ActionCost = history.ActionCost,
-                RiskLabels = history.RiskLabels,
-                ActionLabels = history.Actions.Select(action => (action.label, (action.riskChange, action.actionPointCost))).ToList(),
-                Explanation = history.Explanation,
-            };
-
-            histories.Add(detailDTO);
+            var riskAssesmentHis = new RiskAssessmentHistory(history.ObjectName, history.SelectedRiskLable, history.ExecutedActionLabel, history.RiskChange, CurrentRiskAmount, maxRiskAmount, history.ActionCost, CurrentActionPoint, maxActionPoint, history.Explanation);
+            histories.Add(riskAssesmentHis);
         }
+
+        /*public ActionResultData ApplyAction(string objectId, string selectedActionLabel, TargetType type, string roomId)
+        {
+            if (!Entities.TryGetValue(objectId, out var entity))
+            {
+                Console.WriteLine($"{objectId}が存在しません");
+                return new ActionResultData
+                {
+                    result = ActionResultType.Unknown
+                };
+            }
+
+            if (!entity.TryGetComponent<ChoicableComponent>(out var choicable))
+            {
+                Console.WriteLine($"{entity.Id}はChoicableComponentを持っていません");
+                return new ActionResultData
+                {
+                    result = ActionResultType.Unknown
+                };
+            }
+
+            var action = choicable.SelectedChoice.OverrideActions.Find(a => a.label == selectedActionLabel);
+            if (action == null) return null;
+            if (CurrentActionPoint < action.actionPointCost)
+            {
+                Console.WriteLine("ActionPointが足りません.");
+                return new ActionResultData
+                {
+                    result = ActionResultType.ShortageActionPoint
+                };
+            }
+
+            //Action済みにする
+            if (!entity.TryGetComponent<InspectableComponent>(out var inspectable))
+                return null;
+            if (inspectable.IsActioned) return null;
+            inspectable.IsActioned = true;
+
+            CurrentActionPoint -= action.actionPointCost;
+            CurrentRiskAmount += action.riskChange;
+
+            var selectedRiskLabel = choicable.SelectedChoice.Label;
+            var history = new RiskAssessmentHistory(inspectable.DisplayName, selectedRiskLabel, action.label, action.riskChange, CurrentRiskAmount, maxRiskAmount, action.actionPointCost, CurrentActionPoint, maxActionPoint, action.Explanation);
+            histories.Add(history);
+
+            return new ActionResultData
+            {
+                result = ActionResultType.Success,
+                target = action.target,
+                actionId = action.id,
+                entity = entity,
+                RoomId = roomId,
+                currentRiskAmount = CurrentRiskAmount,
+                currentActionPointAmount = CurrentActionPoint,
+                histories = histories,
+            };
+        }*/
     }
 }

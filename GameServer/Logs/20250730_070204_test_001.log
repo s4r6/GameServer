@@ -1,0 +1,2 @@
+{"elapsedTime":"00:00:00.0005907","roomName":"test","playerId":"teasta","message":"Room created: RoomId=test, StageId=1","category":"System"}
+{"elapsedTime":"00:00:25.0899881","roomName":"test","playerId":"daf22bfb-5122-4a08-97d0-265575c5c9b9","message":"[Inspect]: Risk=既知の脆弱性からの侵入リスク, ObjectId=PCSet01, ElapsedTime=00:00:14.6972911","category":"Inspect"}

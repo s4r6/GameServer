@@ -1,5 +1,0 @@
-{"elapsedTime":"00:00:00","roomName":"tasd","clientId":"5f23e0d9-7d84-40d8-82ab-e12433264fd9","clientName":"test","message":"Room created","category":"System"}
-{"elapsedTime":"00:00:09","roomName":"tasd","clientId":"5f23e0d9-7d84-40d8-82ab-e12433264fd9","clientName":"test","message":"[Inspect]: Risk=全端末乗っ取りのリスク, ObjectId=PCSet01, ElapsedTime=00:00:05.4547113","category":"Inspect"}
-{"elapsedTime":"00:00:12","roomName":"tasd","clientId":"5f23e0d9-7d84-40d8-82ab-e12433264fd9","clientName":"test","message":"[Action]: Action=AutoChangePassword, ObjectId=PCSet01","category":"Action"}
-{"elapsedTime":"00:00:14","roomName":"tasd","clientId":"5f23e0d9-7d84-40d8-82ab-e12433264fd9","clientName":"test","message":"[Inspect]: Risk=パスワードの漏洩リスク, ObjectId=Memo, ElapsedTime=00:00:00.6560416","category":"Inspect"}
-{"elapsedTime":"00:00:16","roomName":"tasd","clientId":"5f23e0d9-7d84-40d8-82ab-e12433264fd9","clientName":"test","message":"[Action]: Action=TrashBin, ObjectId=TrashBin","category":"Action"}

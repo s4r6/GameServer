@@ -41,7 +41,7 @@ namespace GameServer.Application
             _roomRegistry.Save(room);
             var stage = room.GetStage();
 
-            var player = _playerFactory.Create(data.PlayerName, data.PlayerId);
+            var player = new Player(data.PlayerId, data.PlayerId);
             room.AddPlayer(player);
 
             return new CreateRoomOutputData

@@ -32,10 +32,6 @@
     "Components": ["Inspectable", "Door"]
   },
   {
-    "ObjectId": "CardReader",
-    "Components": ["Inspectable"]
-  },
-  {
     "ObjectId": "PCServerManage",
     "Components": ["Inspectable"]
   },
@@ -65,10 +61,6 @@
   },
   {
     "ObjectId": "ImportantBook",
-    "Components": ["Inspectable"]
-  },
-  {
-    "ObjectId": "DoorOutside",
     "Components": ["Inspectable"]
   }
 ]

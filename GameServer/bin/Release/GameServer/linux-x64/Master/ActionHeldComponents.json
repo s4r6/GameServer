@@ -1,0 +1,14 @@
+[
+    {
+        "ObjectId": "Shredder",
+        "NeedAttribute":"Shredderable"   
+    },
+    {
+        "ObjectId": "TrashBin",
+        "NeedAttribute":"Trashable"   
+    },
+    {
+        "ObjectId": "LockCabine",
+        "NeedAttribute": "Storable"
+    }
+]

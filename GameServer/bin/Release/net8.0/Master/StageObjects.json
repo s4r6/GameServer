@@ -20,7 +20,7 @@
           {
             "id": "AutoLock",
             "label": "自動ロックを設定",
-            "riskChange": -3,
+            "riskChange": -6,
             "ActionPointCost": 1,
             "target": "Self",
             "ObjectAttributes": [],
@@ -68,11 +68,11 @@
           {
             "id": "CopyDataToPortableUSB",
             "label": "データをUSBにコピーして持ち歩く",
-            "riskChange": 3,
+            "riskChange": 5,
             "ActionPointCost": 1,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "データをUSBにコピーして持ち歩く行為は、USBメモリの盗難や紛失時に情報漏えいのリスクを高めるため、適切な対応とは言えません。"
+            "Explanation": "データをUSBにコピーして持ち歩く行為は、盗難や紛失時に情報漏えいのリスクを高めるため、適切な対応とは言えません。"
           }
         ]
       },
@@ -92,7 +92,7 @@
           {
             "id": "UseAntivirusSoftware",
             "label": "セキュリティソフトを導入",
-            "riskChange": -4,
+            "riskChange": -2,
             "ActionPointCost": 1,
             "target": "Self",
             "ObjectAttributes": [],
@@ -108,19 +108,19 @@
     "Description": "付箋。「c92Y3ki7t」と8桁の英数字が書かれている。",
     "Choices": [
       {
-        "Label": "パスワードの漏洩リスク",
+        "Label": "なりすまし・不正操作のリスク",
         "RiskId": "PasswordLeak",
         "OverrideActions": [
           {
             "id": "ShredderUse",
             "label": "シュレッダーを使う",
-            "riskChange": -3,
+            "riskChange": -8,
             "ActionPointCost": 1,
             "target": "Held",
             "ObjectAttributes": [
               "Shredderable"
             ],
-            "Explanation": "付箋に書かれたパスワードのような情報は、完全に破棄することで情報漏えいリスクを大きく軽減できます。シュレッダーを使えば読み取り不可能な状態で処理できるため、極めて効果的な対策です。"
+            "Explanation": "付箋に書かれたパスワードのような機密情報は、完全に破棄することで情報漏えいリスクを大きく軽減できます。シュレッダーを使えば読み取り不可能な状態で処理できるため、極めて効果的な対策です。"
           },
           {
             "id": "TrashBin",
@@ -146,7 +146,7 @@
             "ActionPointCost": 2,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "この付箋には8桁の英数字のみが書かれており、重要書類である可能性は低いです。また、デジタル化すること自体がリスクへの対処にはなりません。暗号化など読み取りができない状態で保存することが大切です。"
+            "Explanation": "この付箋はパスワードのみが記載された紙であり、デジタル化すること自体がリスクへの対処にはなりません。保存形式を変えても根本的なリスクは残ります。"
           },
           {
             "id": "StoreCabinet",
@@ -157,7 +157,7 @@
             "ObjectAttributes": [
               "Storable"
             ],
-            "Explanation": "この付箋には8桁の英数字のみが書かれており、重要書類である可能性は低いです。仮に重要書類であったとしても、重要書類をただ保管しておく行為は、リスクを低減する効果には直接的につながりません。ロック可能な棚など適切な場所に保管することが大切です。"
+            "Explanation": "パスワードのような機密情報が書かれたメモを保管しておく行為は、リスクを温存するだけであり、情報漏えいの可能性を下げることにはつながりません。"
           }
         ]
       },
@@ -174,35 +174,25 @@
             "ObjectAttributes": [
               "Storable"
             ],
-            "Explanation": "この付箋には8桁の英数字が書かれており、パスワードの可能性があります。明確な決まり・場所がないのに書類を保管しておく行為は、リスクを温存することになり、リスクの低減・対処にはなりえません。定められた場所以外に保管すると、情報混入や誤廃棄のリスクが残り、リスクの低減効果は低いです。"
+            "Explanation": "パスワードのような機密情報が書かれたメモを保管しておく行為は、リスクを温存するだけであり、情報漏えいの可能性を下げることにはつながりません。"
           },
           {
             "id": "ShredderUse",
             "label": "シュレッダーを使う",
             "riskChange": 0,
-            "ActionPointCost": 1,
+            "ActionPointCost": 2,
             "target": "Held",
             "ObjectAttributes": [
               "Shredderable"
             ],
-            "Explanation": "不要な書類をシュレッダーで読み取り不可能な状態で処理することは適切ですが、8桁の英数字のみが書かれている付箋に誤廃棄・他書類への混入によるリスクが潜在している可能性は根本的に低いです。"
+            "Explanation": "付箋に書かれたパスワードのような機密情報は、完全に破棄することで情報漏えいリスクを大きく軽減できます。シュレッダーを使えば読み取り不可能な状態で処理できるため、極めて効果的な対策です。"
           }
         ]
       },
       {
         "Label": "特にリスクはない",
         "RiskId": "NoRisk",
-        "OverrideActions": [
-          {
-            "id": "None",
-            "label": "",
-            "riskChange": 0,
-            "ActionPointCost": 0,
-            "target": "None",
-            "ObjectAttributes": [],
-            "Explanation": "この付箋には8桁の英数字が書かれており、パスワードの可能性があります。放置すればなりすましや不正利用につながるリスクがあるため、『特にリスクはない』という判断は不適切です。"
-          }
-        ],
+        "OverrideActions": [],
         "Explanation": "この付箋には8桁の英数字が書かれており、パスワードの可能性があります。放置すればなりすましや不正利用につながるリスクがあるため、『特にリスクはない』という判断は不適切です。"
       }
     ]
@@ -247,7 +237,7 @@
             "ActionPointCost": 4,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "部屋内にはすでに文書庫を映すカメラが設置されているため、効果は限定的です。"
+            "Explanation": "この部屋内にはすでに文書庫を映すカメラが設置されているため、効果は限定的。"
           },
           {
             "id": "RequireSign",
@@ -261,8 +251,8 @@
         ]
       },
       {
-        "Label": "盗難のリスク",
-        "RiskId": "TheftRisk",
+        "Label": "鍵のかけ忘れリスク",
+        "RiskId": "ForgetLock",
         "OverrideActions": [
           {
             "id": "AutoLock",
@@ -271,42 +261,23 @@
             "ActionPointCost": 3,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "オートロックを導入することで権限のない者が本を持ち出すのを防げます。入退室の記録が自動で残るため抑止効果も高く、紛失時もカードを無効化すれば対応可能です。"
+            "Explanation": "オートロックを導入することで権限のない者の侵入を防げます。入退室の記録が自動で残るため抑止効果も高く、紛失時もカードを無効化すれば対応可能です。"
           },
           {
             "id": "PhysicalKey",
             "label": "物理鍵の導入",
-            "riskChange": -1,
+            "riskChange": -2,
             "ActionPointCost": 2,
             "target": "Self",
             "ObjectAttributes": [],
             "Explanation": "物理鍵での管理はシンプルで導入コストが低いですが、鍵の紛失や複製のリスクがあり、入退室記録が残らないため抑止効果は限定的です。"
-          },
-          {
-            "id": "PlaceCamera",
-            "label": "監視カメラの設置",
-            "riskChange": 0,
-            "ActionPointCost": 4,
-            "target": "Self",
-            "ObjectAttributes": [],
-            "Explanation": "この部屋内にはすでに文書庫を映すカメラが設置されているため、効果は限定的です。"
           }
         ]
       },
       {
         "Label": "特にリスクはない",
         "RiskId": "NoRisk",
-        "OverrideActions": [
-          {
-            "id": "None",
-            "label": "",
-            "riskChange": 0,
-            "ActionPointCost": 0,
-            "target": "None",
-            "ObjectAttributes": [],
-            "Explanation": "文書庫は在室時に施錠されず開放されており、内部不正や施錠忘れによる情報漏えいのリスクが存在します。したがって『特にリスクはない』という判断は不適切です。"
-          }
-        ],
+        "OverrideActions": [],
         "Explanation": "文書庫は在室時に施錠されず開放されており、内部不正や施錠忘れによる情報漏えいのリスクが存在します。したがって『特にリスクはない』という判断は不適切です。"
       }
     ]
@@ -320,7 +291,7 @@
   {
     "ObjectId": "PCServerManage",
     "DisplayName": "サーバー管理用PC",
-    "Description": "サーバーを管理するPC。自動ロックが設定されており、セキュリティソフトは常に最新状態に保たれている。",
+    "Description": "サーバーを管理するPC。自動ロックが設定されており、セキュリティソフトは常に最新状態に保たれている。電源はついたまま。",
     "Choices": [
       {
         "Label": "不正操作・内部不正のリスク",
@@ -329,11 +300,11 @@
           {
             "id": "Shutdown",
             "label": "シャットダウン",
-            "riskChange": 0,
+            "riskChange": -1,
             "ActionPointCost": 1,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "このPCは電源がついていないため、シャットダウンによるリスクの低減は期待できません。"
+            "Explanation": "電源を切ることで一時的に不正操作のリスクは下がりますが、サーバー管理用PCとしては運用上の実用性が低く、根本的な対策とは言えません。"
           },
           {
             "id": "AutoLock",
@@ -386,7 +357,7 @@
           {
             "id": "CopyDataToPortableUSB",
             "label": "データをUSBにコピーして持ち歩く",
-            "riskChange": 3,
+            "riskChange": 5,
             "ActionPointCost": 1,
             "target": "Self",
             "ObjectAttributes": [],
@@ -395,20 +366,28 @@
         ]
       },
       {
-	      "Label": "特にリスクはない",
-        "RiskId": "NoRisk",
+        "Label": "既知の脆弱性からの侵入リスク",
+        "RiskId": "OutofDate Patch",
         "OverrideActions": [
           {
-            "id": "None",
-            "label": "",
+            "id": "AutoUpdate",
+            "label": "自動アップデートを設定",
             "riskChange": 0,
-            "ActionPointCost": 0,
-            "target": "None",
+            "ActionPointCost": 2,
+            "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": ""
+            "Explanation": "このPCではすでにOSの自動アップデートが設定されており、あらためて設定してもリスクの軽減にはつながりません。"
+          },
+          {
+            "id": "UseAntivirusSoftware",
+            "label": "セキュリティソフトを導入",
+            "riskChange": 0,
+            "ActionPointCost": 1,
+            "target": "Self",
+            "ObjectAttributes": [],
+            "Explanation": "セキュリティソフトはすでに導入されており、常に最新の状態に保たれているため、追加で導入しても効果はありません。"
           }
-        ],
-        "Explanation": ""
+        ]
       }
     ]
   },
@@ -424,11 +403,11 @@
           {
             "id": "SetArart",
             "label": "警報機を設置する",
-            "riskChange": -1,
+            "riskChange": -2,
             "ActionPointCost": 3,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "すでに十分頑丈な鋼鉄製であり、こじ開け・打ち破りといった物理的突破に対する追加対策という観点では効果は限定的です。一方で、侵入の検知・早期発見・抑止などの観点では一定の効果が見込めます。"
+            "Explanation": "すでに十分頑丈な鋼鉄製であり、こじ開け・打ち破りといった物理的突破に対する追加対策という観点では効果は限定的である。一方で、侵入の検知・早期発見・抑止などの観点では一定の効果が見込める"
           },
           {
             "id": "PlaceCamera",
@@ -437,7 +416,7 @@
             "ActionPointCost": 4,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "打ち破り行為そのものを止める直接的な効果はありませんが、定期的にカメラ映像を確認することで侵入の早期発見が見込めます。監視カメラの設置を明示することにより抑止力効果もある程度期待できます。"
+            "Explanation": "打ち破り行為そのものを止める直接的な効果はないが、定期的にカメラ映像を確認することで侵入の早期発見が見込める"
           }
         ]
       },
@@ -452,7 +431,7 @@
             "ActionPointCost": 3,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "自動ロックを導入することで、施錠忘れを防ぐことができます。加えて、ICカードにすることで物理鍵よりも複製が難しくなります。"
+            "Explanation": "自動ロックを導入することで、施錠忘れを防ぐことができ、ICカードにすることで物理鍵よりも複製が難しくなる。"
           },
           {
             "id": "PlaceCamera",
@@ -461,7 +440,7 @@
             "ActionPointCost": 4,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "侵入自体を止める直接的な効果はありませんが、定期的にカメラ映像を確認することで侵入の早期発見が見込めます。監視カメラの設置を明示することにより抑止力効果もある程度期待できます。"
+            "Explanation": "侵入自体を止める直接的な効果はないが、定期的にカメラ映像を確認することで侵入の早期発見が見込める"
           }
         ]
       },
@@ -476,7 +455,7 @@
             "ActionPointCost": 4,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "鍵は社員全員に渡されるため、効果は薄いです。"
+            "Explanation": "鍵は社員全員に渡されるため、効果は薄い"
           },
           {
             "id": "PlaceCamera",
@@ -485,25 +464,14 @@
             "ActionPointCost": 4,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "不正自体を止める直接的な効果はありませんが、定期的にカメラ映像を確認することで不正の早期発見が見込めます。監視カメラの設置を明示することにより抑止力効果もある程度期待できます。"
+            "Explanation": "不正自体を止める直接的な効果はないが、定期的にカメラ映像を確認することで不正の早期発見が見込める"
           }
         ]
       },
       {
         "Label": "特にリスクはない",
         "RiskId": "NoRisk",
-        "OverrideActions": [
-          {
-            "id": "None",
-            "label": "",
-            "riskChange": 0,
-            "ActionPointCost": 0,
-            "target": "None",
-            "ObjectAttributes": [],
-            "Explanation": "物理鍵による手動での施錠は鍵の施錠忘れのリスクがあり、『特にリスクはない』という判断は不適切です。"
-          }
-        ],
-	      "Explanation" : "物理鍵による手動での施錠は鍵の施錠忘れのリスクがあり、『特にリスクはない』という判断は不適切です。"
+        "OverrideActions": []
       }
     ]
   },
@@ -523,7 +491,7 @@
             "ActionPointCost": 3,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "不必要な社員が立ち入れなくなるため、内部不正そのものを減らすことができます。しかし、権限を持つ社員自身の不正は防げないため注意が必要です。"
+            "Explanation": "不必要な社員が立ち入れなくなるため、内部不正そのものを減らすことができる。しかし、権限を持つ社員自身の不正は防げないため注意が必要。"
           },
           {
             "id": "GetLog",
@@ -532,7 +500,7 @@
             "ActionPointCost": 2,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "不正の早期発見が可能になります。しかし、依然としてすべての社員全員が入室できてしまうため不正自体を減らす・防ぐことは困難です。加えて、ログを定期的に確認しなければ効果がないことに注意が必要です。"
+            "Explanation": "不正の早期発見が可能になる。しかし、依然としてすべての社員全員が入室できてしまうため不正自体を減らす・防ぐことは困難。加えて、ログを定期的に確認しなければ効果がないことに注意が必要。"
           }
         ]
       },
@@ -547,7 +515,7 @@
             "ActionPointCost": 4,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "多要素認証の導入により、ICカードのみでは入室することが困難になり、効果的な抑制が可能です。"
+            "Explanation": "多要素認証の導入により、ICカードのみでは入室することが困難になり、効果的な抑制が可能。"
           },
           {
             "id": "DeleteAuthority",
@@ -556,7 +524,7 @@
             "ActionPointCost": 2,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "紛失したカードを即時無効化することで悪用のリスクを限りなく減らすことができます。ただし、報告が遅れた場合や不正が即時行われた場合は防げないことに注意が必要です。"
+            "Explanation": "紛失したカードを即時無効化することで悪用のリスクを限りなく減らすことができる。ただし、報告が遅れた場合や不正が即時行われた場合は防げないことに注意が必要。"
           }
         ]
       },
@@ -571,25 +539,14 @@
             "ActionPointCost": 4,
             "target": "Self",
             "ObjectAttributes": [],
-            "Explanation": "カードのみでは入室できなくなり、効果的な抑制が可能です。"
+            "Explanation": "カードのみでは入室できなくなり、効果的な抑制が可能"
           }
         ]
       },
       {
         "Label": "特にリスクはない",
         "RiskId": "NoRisk",
-        "OverrideActions": [
-          {
-            "id": "None",
-            "label": "",
-            "riskChange": 0,
-            "ActionPointCost": 0,
-            "target": "None",
-            "ObjectAttributes": [],
-            "Explanation": ""
-          }
-        ],
-        "Explanation": ""
+        "OverrideActions": []
       }
     ]
   },

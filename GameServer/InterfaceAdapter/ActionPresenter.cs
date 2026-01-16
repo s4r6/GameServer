@@ -6,6 +6,7 @@ using GameServer.Infrastracture;
 using GameServer.InterfaceAdapter.Interface;
 using GameServer.Utility;
 using Microsoft.Extensions.Logging.Abstractions;
+using static GameServer.Domain.LogEntity;
 
 namespace GameServer.InterfaceAdapter
 {
@@ -65,15 +66,14 @@ namespace GameServer.InterfaceAdapter
             }
 
 
-            var log = new InGameLog(
+            var log = new LogEntry(
                             TimeSpan.Zero,
                             result.RoomName,
-                            connectionId,
                             result.PlayerName,
                             $"[Action]: Action={result.actionId}, ObjectId={objectId}",
                             LogCategory.Action
                            );
-            await logger.SaveAsync_InGameLog(log, result.RoomId);
+            await logger.SaveAsync(log, result.RoomId);
 
             SyncObjectPacket objData = new SyncObjectPacket();
 
@@ -106,14 +106,6 @@ namespace GameServer.InterfaceAdapter
             json = PacketSerializer.Serialize(responsePacket);
             await _registry.BroadcastAsync(result.RoomId, json);
 
-
-            //通信ログ出力
-            var connectionLog = new ConnectionLog(
-                            DateTime.Now,
-                            connectionId,
-                            $"[Receive] packetId = {responsePacket.PacketId}, data = {json}",
-                            LogCategory.System);
-            await logger.SavaAsync_ConnectionLog(connectionLog, connectionId);
             return;
         }
     }

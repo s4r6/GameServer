@@ -73,5 +73,3 @@ C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Deb
 C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Debug\net8.0\GameServer.pdb
 C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Debug\net8.0\GameServer.genruntimeconfig.cache
 C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Debug\net8.0\ref\GameServer.dll
-C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Debug\net8.0\GameServer.sourcelink.json
-C:\Users\kouta\Desktop\UnityProjects\MyGame\Server\GameServer\GameServer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -28,8 +28,7 @@ namespace GameServer.Domain.Object.Components
                 {
                     Label = originalChoice.Label,
                     RiskId = originalChoice.RiskId,
-                    OverrideActions = clonedActions,
-                    Explanation = originalChoice.Explanation
+                    OverrideActions = clonedActions
                 };
             }).ToList();
 
