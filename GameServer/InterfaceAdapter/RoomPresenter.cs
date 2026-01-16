@@ -1,12 +1,12 @@
 ﻿using GameServer.Application;
 using GameServer.Application.DTO;
 using GameServer.Application.Interface;
+using GameServer.Domain;
 using GameServer.Domain.Object;
 using GameServer.Infrastracture;
 using GameServer.Infrastracture.Repository;
 using GameServer.InterfaceAdapter.Interface;
 using GameServer.Utility;
-using static GameServer.Domain.LogEntity;
 
 namespace GameServer.InterfaceAdapter
 {
@@ -45,14 +45,15 @@ namespace GameServer.InterfaceAdapter
             if(result.Success)
             {
                 //Logの生成処理
-                var log = new LogEntry(
+                var createLog = new InGameLog(
                                 TimeSpan.Zero,  //一旦0
                                 result.RoomName,
+                                connectionId,
                                 result.PlayerName,
-                                $"Room created: RoomId={input.RoomName}, StageId={input.StageId}",
+                                $"Room created",
                                 LogCategory.System
                                );
-                await logger.SaveAsync(log, result.RoomId);
+                await logger.SaveAsync_InGameLog(createLog, result.RoomId);
             }
 
             List<SyncObjectPacket> objDatas = ConvertToSendableData(result.Entities);
@@ -76,6 +77,14 @@ namespace GameServer.InterfaceAdapter
 
             var json = PacketSerializer.Serialize(responsePacket);
             await _registry.SendAsync(connectionId, json);
+
+            //通信ログ出力
+            var log = new ConnectionLog(
+                            DateTime.Now,
+                            connectionId,
+                            $"[Receive] packetId = {responsePacket.PacketId}, data = {json}",
+                            LogCategory.System);
+            await logger.SavaAsync_ConnectionLog(log, connectionId);
         }
 
         public async Task HandleJoinRequest(string rawJson, string connectionId)
@@ -85,8 +94,9 @@ namespace GameServer.InterfaceAdapter
             var input = new JoinRoomInputData
             {
                 RoomId = packet.Payload.RoomId,
+                PlayerId = connectionId,
                 PlayerName = packet.Payload.PlayerName,
-                PlayerId = connectionId
+                
             };
 
             var result = roomUseCase.HandleJoin(input);
@@ -94,14 +104,15 @@ namespace GameServer.InterfaceAdapter
             if (result.Success)
             {
                 //Logの生成処理
-                var log = new LogEntry(
+                var joinLog = new InGameLog(
                                 TimeSpan.Zero,  //一旦0
                                 result.RoomName,
+                                connectionId,
                                 result.PlayerName,
-                                $"Room joined: RoomId={result.RoomName}, PlayerName={result.PlayerName}",
+                                $"Room joined",
                                 LogCategory.System
                                );
-                await logger.SaveAsync(log, result.RoomId);
+                await logger.SaveAsync_InGameLog(joinLog, result.RoomId);
             }
 
             List<SyncObjectPacket> objDatas = ConvertToSendableData(result.Entities);
@@ -128,6 +139,14 @@ namespace GameServer.InterfaceAdapter
             //Joinの結果を送信
             await _registry.SendAsync(connectionId, json);
             if (!result.Success) return;
+
+            //通信ログ出力
+            var log = new ConnectionLog(
+                            DateTime.Now,
+                            connectionId,
+                            $"[Receive] packetId = {responsePacket.PacketId}, data = {json}",
+                            LogCategory.System);
+            await logger.SavaAsync_ConnectionLog(log, connectionId);
 
 
             var notifierPacket = new PacketModel<JoinPlayerNotifier>
@@ -158,6 +177,14 @@ namespace GameServer.InterfaceAdapter
 
             var json = PacketSerializer.Serialize(responsePacket);
             await _registry.SendAsync(connectionId, json);
+
+            //通信ログ出力
+            var log = new ConnectionLog(
+                            DateTime.Now,
+                            connectionId,
+                            $"[Receive] packetId = {responsePacket.PacketId}, data = {json}",
+                            LogCategory.System);
+            await logger.SavaAsync_ConnectionLog(log, connectionId);
         }
 
         public async Task HandlePlayerDisconnected(string connectionId)

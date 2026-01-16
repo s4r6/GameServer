@@ -6,5 +6,6 @@ namespace GameServer.Domain.Object.Components
         public string RiskId { get; set; }
 
         public List<ActionEntity> OverrideActions { get; set; } = new();
+        public string Explanation { get; set; }
     }
 }

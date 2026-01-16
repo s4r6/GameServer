@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\interfaceadapter\\roompresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\interfaceadapter\\roompresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\utility\\packetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\utility\\packetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\repository\\roomlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\repository\\roomlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\object\\components\\choicablecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\object\\components\\choicablecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\repository\\filelogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\repository\\filelogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\master\\stageobjects.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\master\\stageobjects.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\application\\loggerusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\application\\loggerusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\stage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\stage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\application\\serverinspectusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\application\\serverinspectusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\object\\components\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\object\\components\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\interfaceadapter\\inspectpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,32 +35,88 @@
       "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\utility\\packetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\utility\\packetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\factory\\choicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\factory\\choicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\object\\components\\inspectablecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\object\\components\\inspectablecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\packetserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\packetserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\interfaceadapter\\actionpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\interfaceadapter\\actionpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\factory\\entityfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\factory\\entityfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\factory\\stagefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\factory\\stagefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\interfaceadapter\\componentdatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\interfaceadapter\\componentdatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\stage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\stage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\repository\\objectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\repository\\objectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\interfaceadapter\\roompresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\interfaceadapter\\roompresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\interfaceadapter\\votepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\interfaceadapter\\votepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\application\\roomusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\application\\roomusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\object\\components\\actioncomponent\\actionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\object\\components\\actioncomponent\\actionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\application\\loggerusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\application\\loggerusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\repository\\filelogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\repository\\filelogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\application\\interface\\ilogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\application\\interface\\ilogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\application\\dto\\datatransferobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\application\\dto\\datatransferobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\object\\components\\doorcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\object\\components\\doorcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\votesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\votesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\interfaceadapter\\gameclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\interfaceadapter\\gameclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\interfaceadapter\\registory\\roomregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\interfaceadapter\\registory\\roomregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\application\\voteusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\application\\voteusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\repository\\objectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\repository\\objectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\factory\\stagefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\factory\\stagefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\object\\components\\gamecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,92 +127,20 @@
       "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\object\\components\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\object\\objectentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\object\\objectentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\interfaceadapter\\componentdatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\interfaceadapter\\componentdatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\application\\roomusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\application\\roomusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\interfaceadapter\\registory\\roomregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\interfaceadapter\\registory\\roomregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\factory\\roomfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\factory\\roomfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\votesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\votesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\interfaceadapter\\votepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\interfaceadapter\\votepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\logentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\logentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\application\\serveractionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\application\\serveractionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\application\\serverinspectusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\application\\serverinspectusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\application\\interface\\ilogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\application\\interface\\ilogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\actionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\actionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\playerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\playerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\application\\interface\\iplayerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\application\\interface\\iplayerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\object\\components\\choicablecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\object\\components\\choicablecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\object\\components\\actioncomponent\\actionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\object\\components\\actioncomponent\\actionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\inspectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\inspectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\infrastracture\\factory\\entityfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\infrastracture\\factory\\entityfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\object\\components\\actioncomponent\\actionself.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\object\\components\\actioncomponent\\actionself.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\master\\inspectablecomponents.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\master\\inspectablecomponents.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|c:\\users\\kouta\\desktop\\unityprojects\\mygame\\server\\gameserver\\gameserver\\domain\\object\\components\\doorcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9139BD19-44F1-4C12-BBBE-35D3D4A0F6C8}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\domain\\object\\components\\doorcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -157,62 +149,195 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 306,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 324,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Stage.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Stage.cs",
               "RelativeDocumentMoniker": "GameServer\\Domain\\Stage.cs",
               "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Stage.cs",
               "RelativeToolTip": "GameServer\\Domain\\Stage.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAMwHEAAAB5AAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowHkAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T23:09:28.872Z"
+              "WhenOpened": "2025-07-22T23:09:28.872Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InspectPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\InspectPresenter.cs",
-              "RelativeDocumentMoniker": "GameServer\\InterfaceAdapter\\InspectPresenter.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\InspectPresenter.cs",
-              "RelativeToolTip": "GameServer\\InterfaceAdapter\\InspectPresenter.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCAAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T02:31:47.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RoomLogRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Repository\\RoomLogRepository.cs",
-              "RelativeDocumentMoniker": "GameServer\\Infrastracture\\Repository\\RoomLogRepository.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Repository\\RoomLogRepository.cs",
-              "RelativeToolTip": "GameServer\\Infrastracture\\Repository\\RoomLogRepository.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAADgvzoAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T04:14:42.451Z",
+              "DocumentIndex": 2,
+              "Title": "StageObjects.json",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Master\\StageObjects.json",
+              "RelativeDocumentMoniker": "GameServer\\Master\\StageObjects.json",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Master\\StageObjects.json",
+              "RelativeToolTip": "GameServer\\Master\\StageObjects.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-07T08:01:46.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PacketModel.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Utility\\PacketModel.cs",
+              "RelativeDocumentMoniker": "GameServer\\Utility\\PacketModel.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Utility\\PacketModel.cs",
+              "RelativeToolTip": "GameServer\\Utility\\PacketModel.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAEwIUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:44:36.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PacketSerializer.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\PacketSerializer.cs",
+              "RelativeDocumentMoniker": "GameServer\\Infrastracture\\PacketSerializer.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\PacketSerializer.cs",
+              "RelativeToolTip": "GameServer\\Infrastracture\\PacketSerializer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:44:04.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EntityFactory.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Factory\\EntityFactory.cs",
+              "RelativeDocumentMoniker": "GameServer\\Infrastracture\\Factory\\EntityFactory.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Factory\\EntityFactory.cs",
+              "RelativeToolTip": "GameServer\\Infrastracture\\Factory\\EntityFactory.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:43:36.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Choice.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Object\\Components\\Choice.cs",
+              "RelativeDocumentMoniker": "GameServer\\Domain\\Object\\Components\\Choice.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Object\\Components\\Choice.cs",
+              "RelativeToolTip": "GameServer\\Domain\\Object\\Components\\Choice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:42:40.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChoiceFactory.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Factory\\ChoiceFactory.cs",
+              "RelativeDocumentMoniker": "GameServer\\Infrastracture\\Factory\\ChoiceFactory.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Factory\\ChoiceFactory.cs",
+              "RelativeToolTip": "GameServer\\Infrastracture\\Factory\\ChoiceFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:42:26.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ComponentDataFactory.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\ComponentDataFactory.cs",
+              "RelativeDocumentMoniker": "GameServer\\InterfaceAdapter\\ComponentDataFactory.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\ComponentDataFactory.cs",
+              "RelativeToolTip": "GameServer\\InterfaceAdapter\\ComponentDataFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T07:42:13.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoggerUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\LoggerUseCase.cs",
+              "RelativeDocumentMoniker": "GameServer\\Application\\LoggerUseCase.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\LoggerUseCase.cs",
+              "RelativeToolTip": "GameServer\\Application\\LoggerUseCase.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA2wBgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:26:18.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ILogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\Interface\\ILogRepository.cs",
+              "RelativeDocumentMoniker": "GameServer\\Application\\Interface\\ILogRepository.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\Interface\\ILogRepository.cs",
+              "RelativeToolTip": "GameServer\\Application\\Interface\\ILogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:15:24.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GameClock.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\GameClock.cs",
+              "RelativeDocumentMoniker": "GameServer\\InterfaceAdapter\\GameClock.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\GameClock.cs",
+              "RelativeToolTip": "GameServer\\InterfaceAdapter\\GameClock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:23:10.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DataTransferObjects.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\DTO\\DataTransferObjects.cs",
+              "RelativeDocumentMoniker": "GameServer\\Application\\DTO\\DataTransferObjects.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\DTO\\DataTransferObjects.cs",
+              "RelativeToolTip": "GameServer\\Application\\DTO\\DataTransferObjects.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T20:24:00.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InspectPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\InspectPresenter.cs",
+              "RelativeDocumentMoniker": "GameServer\\InterfaceAdapter\\InspectPresenter.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\InspectPresenter.cs",
+              "RelativeToolTip": "GameServer\\InterfaceAdapter\\InspectPresenter.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T02:31:47.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Repository\\LogRepository.cs",
+              "RelativeDocumentMoniker": "GameServer\\Infrastracture\\Repository\\LogRepository.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Repository\\LogRepository.cs",
+              "RelativeToolTip": "GameServer\\Infrastracture\\Repository\\LogRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwBwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T04:14:42.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "RoomPresenter.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\RoomPresenter.cs",
               "RelativeDocumentMoniker": "GameServer\\InterfaceAdapter\\RoomPresenter.cs",
               "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\RoomPresenter.cs",
               "RelativeToolTip": "GameServer\\InterfaceAdapter\\RoomPresenter.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAmwGQAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAYwI8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T14:22:21.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T14:22:21.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "GameComponent.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Object\\Components\\GameComponent.cs",
               "RelativeDocumentMoniker": "GameServer\\Domain\\Object\\Components\\GameComponent.cs",
@@ -224,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 28,
               "Title": "StageFactory.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Factory\\StageFactory.cs",
               "RelativeDocumentMoniker": "GameServer\\Infrastracture\\Factory\\StageFactory.cs",
@@ -236,19 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InspectableComponent.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Object\\Components\\InspectableComponent.cs",
-              "RelativeDocumentMoniker": "GameServer\\Domain\\Object\\Components\\InspectableComponent.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Object\\Components\\InspectableComponent.cs",
-              "RelativeToolTip": "GameServer\\Domain\\Object\\Components\\InspectableComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T06:22:48.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 30,
               "Title": "IInteractable.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Object\\Components\\IInteractable.cs",
               "RelativeDocumentMoniker": "GameServer\\Domain\\Object\\Components\\IInteractable.cs",
@@ -260,13 +373,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "VoteUseCase.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\VoteUseCase.cs",
               "RelativeDocumentMoniker": "GameServer\\Application\\VoteUseCase.cs",
               "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\VoteUseCase.cs",
               "RelativeToolTip": "GameServer\\Application\\VoteUseCase.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAIAwwGMAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAEwGMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T08:10:19.367Z"
             },
@@ -278,37 +391,25 @@
               "RelativeDocumentMoniker": "GameServer\\Infrastracture\\Repository\\ObjectRepository.cs",
               "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Repository\\ObjectRepository.cs",
               "RelativeToolTip": "GameServer\\Infrastracture\\Repository\\ObjectRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwB4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T04:14:14.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ObjectEntity.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Object\\ObjectEntity.cs",
-              "RelativeDocumentMoniker": "GameServer\\Domain\\Object\\ObjectEntity.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Object\\ObjectEntity.cs",
-              "RelativeToolTip": "GameServer\\Domain\\Object\\ObjectEntity.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwDYAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T05:46:57.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "RoomRegistry.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\Registory\\RoomRegistry.cs",
               "RelativeDocumentMoniker": "GameServer\\InterfaceAdapter\\Registory\\RoomRegistry.cs",
               "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\Registory\\RoomRegistry.cs",
               "RelativeToolTip": "GameServer\\InterfaceAdapter\\Registory\\RoomRegistry.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T05:35:47.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "RoomFactory.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Factory\\RoomFactory.cs",
               "RelativeDocumentMoniker": "GameServer\\Infrastracture\\Factory\\RoomFactory.cs",
@@ -320,31 +421,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 14,
               "Title": "VotePresenter.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\VotePresenter.cs",
               "RelativeDocumentMoniker": "GameServer\\InterfaceAdapter\\VotePresenter.cs",
               "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\VotePresenter.cs",
               "RelativeToolTip": "GameServer\\InterfaceAdapter\\VotePresenter.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAIwG0AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAjwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T08:06:47.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Room.cs",
               "RelativeDocumentMoniker": "GameServer\\Domain\\Room.cs",
               "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Room.cs",
               "RelativeToolTip": "GameServer\\Domain\\Room.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAgwFgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T02:23:12.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "ServerActionUseCase.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\ServerActionUseCase.cs",
               "RelativeDocumentMoniker": "GameServer\\Application\\ServerActionUseCase.cs",
@@ -356,55 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ILogRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\Interface\\ILogRepository.cs",
-              "RelativeDocumentMoniker": "GameServer\\Application\\Interface\\ILogRepository.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\Interface\\ILogRepository.cs",
-              "RelativeToolTip": "GameServer\\Application\\Interface\\ILogRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T10:50:49.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "PlayerFactory.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\PlayerFactory.cs",
-              "RelativeDocumentMoniker": "GameServer\\Domain\\PlayerFactory.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\PlayerFactory.cs",
-              "RelativeToolTip": "GameServer\\Domain\\PlayerFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:04:00.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IPlayerFactory.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\Interface\\IPlayerFactory.cs",
-              "RelativeDocumentMoniker": "GameServer\\Application\\Interface\\IPlayerFactory.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\Interface\\IPlayerFactory.cs",
-              "RelativeToolTip": "GameServer\\Application\\Interface\\IPlayerFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T06:36:17.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ActionService.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\ActionService.cs",
-              "RelativeDocumentMoniker": "GameServer\\Domain\\ActionService.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\ActionService.cs",
-              "RelativeToolTip": "GameServer\\Domain\\ActionService.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAiwF4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T03:47:37.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "InspectService.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\InspectService.cs",
               "RelativeDocumentMoniker": "GameServer\\Domain\\InspectService.cs",
@@ -413,18 +466,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAIwBkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T04:12:13.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "EntityFactory.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Factory\\EntityFactory.cs",
-              "RelativeDocumentMoniker": "GameServer\\Infrastracture\\Factory\\EntityFactory.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Factory\\EntityFactory.cs",
-              "RelativeToolTip": "GameServer\\Infrastracture\\Factory\\EntityFactory.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T04:43:18.241Z"
             },
             {
               "$type": "Document",
@@ -437,89 +478,52 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T04:02:04.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "InspectableComponents.json",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Master\\InspectableComponents.json",
-              "RelativeDocumentMoniker": "GameServer\\Master\\InspectableComponents.json",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Master\\InspectableComponents.json",
-              "RelativeToolTip": "GameServer\\Master\\InspectableComponents.json",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAG0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-12T05:39:56.665Z"
             }
           ]
         },
         {
-          "DockedWidth": 213,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 195,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Program.cs",
               "RelativeDocumentMoniker": "GameServer\\Program.cs",
               "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Program.cs",
               "RelativeToolTip": "GameServer\\Program.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAcwGYAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAiwJMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T08:06:56.627Z"
+              "WhenOpened": "2025-11-18T01:35:13.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
+              "Title": "RoomUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\RoomUseCase.cs",
+              "RelativeDocumentMoniker": "GameServer\\Application\\RoomUseCase.cs",
+              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\RoomUseCase.cs",
+              "RelativeToolTip": "GameServer\\Application\\RoomUseCase.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T00:38:47.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "FileLogRepository.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Repository\\FileLogRepository.cs",
               "RelativeDocumentMoniker": "GameServer\\Infrastracture\\Repository\\FileLogRepository.cs",
               "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Infrastracture\\Repository\\FileLogRepository.cs",
               "RelativeToolTip": "GameServer\\Infrastracture\\Repository\\FileLogRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T01:53:26.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T01:53:26.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ActionPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\ActionPresenter.cs",
-              "RelativeDocumentMoniker": "GameServer\\InterfaceAdapter\\ActionPresenter.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\ActionPresenter.cs",
-              "RelativeToolTip": "GameServer\\InterfaceAdapter\\ActionPresenter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T00:59:06.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ComponentDataFactory.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\ComponentDataFactory.cs",
-              "RelativeDocumentMoniker": "GameServer\\InterfaceAdapter\\ComponentDataFactory.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\InterfaceAdapter\\ComponentDataFactory.cs",
-              "RelativeToolTip": "GameServer\\InterfaceAdapter\\ComponentDataFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T04:24:03.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoggerUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\LoggerUseCase.cs",
-              "RelativeDocumentMoniker": "GameServer\\Application\\LoggerUseCase.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\LoggerUseCase.cs",
-              "RelativeToolTip": "GameServer\\Application\\LoggerUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T09:49:52.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "VoteSession.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\VoteSession.cs",
               "RelativeDocumentMoniker": "GameServer\\Domain\\VoteSession.cs",
@@ -531,55 +535,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PacketModel.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Utility\\PacketModel.cs",
-              "RelativeDocumentMoniker": "GameServer\\Utility\\PacketModel.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Utility\\PacketModel.cs",
-              "RelativeToolTip": "GameServer\\Utility\\PacketModel.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAgwK4AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T04:38:05.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RoomUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\RoomUseCase.cs",
-              "RelativeDocumentMoniker": "GameServer\\Application\\RoomUseCase.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\RoomUseCase.cs",
-              "RelativeToolTip": "GameServer\\Application\\RoomUseCase.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvyAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T00:38:47.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LogEntity.cs",
-              "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\LogEntity.cs",
-              "RelativeDocumentMoniker": "GameServer\\Domain\\LogEntity.cs",
-              "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\LogEntity.cs",
-              "RelativeToolTip": "GameServer\\Domain\\LogEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T04:18:22.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 4,
               "Title": "ServerInspectUseCase.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\ServerInspectUseCase.cs",
               "RelativeDocumentMoniker": "GameServer\\Application\\ServerInspectUseCase.cs",
               "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Application\\ServerInspectUseCase.cs",
               "RelativeToolTip": "GameServer\\Application\\ServerInspectUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwCsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T02:34:37.719Z"
+              "WhenOpened": "2025-07-23T02:34:37.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 16,
               "Title": "ActionEntity.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Object\\Components\\ActionComponent\\ActionEntity.cs",
               "RelativeDocumentMoniker": "GameServer\\Domain\\Object\\Components\\ActionComponent\\ActionEntity.cs",
@@ -591,19 +560,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 1,
               "Title": "ChoicableComponent.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Object\\Components\\ChoicableComponent.cs",
               "RelativeDocumentMoniker": "GameServer\\Domain\\Object\\Components\\ChoicableComponent.cs",
               "ToolTip": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Object\\Components\\ChoicableComponent.cs",
               "RelativeToolTip": "GameServer\\Domain\\Object\\Components\\ChoicableComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T18:05:00.857Z"
+              "WhenOpened": "2025-07-19T18:05:00.857Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 22,
               "Title": "DoorComponent.cs",
               "DocumentMoniker": "C:\\Users\\kouta\\Desktop\\UnityProjects\\MyGame\\Server\\GameServer\\GameServer\\Domain\\Object\\Components\\DoorComponent.cs",
               "RelativeDocumentMoniker": "GameServer\\Domain\\Object\\Components\\DoorComponent.cs",

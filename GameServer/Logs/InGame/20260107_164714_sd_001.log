@@ -1,0 +1,5 @@
+{"elapsedTime":"00:00:00","roomName":"sd","clientId":"fa813df1-ed16-4792-9544-ed8475e99474","clientName":"te","message":"Room created","category":"System"}
+{"elapsedTime":"00:00:22","roomName":"sd","clientId":"fa813df1-ed16-4792-9544-ed8475e99474","clientName":"te","message":"[Inspect]: Risk=こじ開け・打ち破りのリスク, ObjectId=DoorOutside, ElapsedTime=00:00:02.9663544","category":"Inspect"}
+{"elapsedTime":"00:00:27","roomName":"sd","clientId":"fa813df1-ed16-4792-9544-ed8475e99474","clientName":"te","message":"[Inspect]: Risk=こじ開け・打ち破りのリスク, ObjectId=DoorOutside, ElapsedTime=00:00:08.4624339","category":"Inspect"}
+{"elapsedTime":"00:00:33","roomName":"sd","clientId":"fa813df1-ed16-4792-9544-ed8475e99474","clientName":"te","message":"[Inspect]: Risk=こじ開け・打ち破りのリスク, ObjectId=DoorOutside, ElapsedTime=00:00:14.4398105","category":"Inspect"}
+{"elapsedTime":"00:00:38","roomName":"sd","clientId":"fa813df1-ed16-4792-9544-ed8475e99474","clientName":"te","message":"[Inspect]: Risk=特にリスクはない, ObjectId=DoorOutside, ElapsedTime=00:00:19.4539265","category":"Inspect"}

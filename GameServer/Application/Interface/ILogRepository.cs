@@ -1,9 +1,9 @@
-﻿using static GameServer.Domain.LogEntity;
+﻿using GameServer.Domain;
 
 namespace GameServer.Application
 {
     public interface ILogRepository
     {
-        Task SaveAsync(LogEntry entry, string roomId);
+        Task SaveAsync(ILog log, string Id, string Name, string SubFolder);
     }
 }
